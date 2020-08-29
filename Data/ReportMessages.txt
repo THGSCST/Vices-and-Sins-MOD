@@ -1,0 +1,102 @@
+# Messages for in week reports
+#
+# PRIORITY ORDER MESSAGES
+#
+I'm about to start the %s order.
+I've completed the %s order.
+#
+# WAITING ORDER
+#
+I'm waiting to do the %s order.
+#
+# ALL ORDERS
+#
+I'm about to start the %s order.
+I've completed the %s order.
+#
+# ORDER FAILED
+#
+%s order failed.
+#
+# LAW ENFORCEMENT
+#
+The police are raiding my site!
+The police are raiding a site nearby!
+The F.B.I. are raiding my site!
+The F.B.I. are raiding a site nearby!
+I've been arrested!
+The police have just arrested someone!
+I've been arrested!
+The F.B.I. have just arrested someone!
+The police are after me!
+The police are chasing someone nearby!
+The F.B.I. are after me!
+The F.B.I. are chasing someone nearby!
+The police are attacking me!
+The police are attacking someone!
+The F.B.I. are attacking me!
+The F.B.I. are attacking someone!
+%s has been hit!
+%s has been killed!
+#
+# RIVAL GANGSTER ACTIVITY
+#
+# Unknowns
+#
+I've just seen someone suspicious moving round here!
+There's someone round here you want to keep an eye on.
+I've just seen someone suspicious moving round here!
+Someone round here is up to no good.
+I don't like the look of the person who's just entered my place!
+Someone suspicious has just entered a store nearby!
+Someone suspicious has just entered a store nearby!
+My place is under attack!
+There's a site under attack!
+There's a site under attack!
+Someone's under attack!
+I'm under attack!
+I'm being tailed!
+I lost the tail!
+%s has been hit!
+%s has been killed!
+#
+# Knowns
+#
+I've just seen %s moving round here!
+%s is moving around here. You want to keep an eye on them.
+I've just seen  %s round here!
+I've just seen %s hanging around.
+%s has entered my place!
+%s has entered a store nearby!
+%s has entered a store nearby!
+%s is attacking me!
+%s is attacking a site nearby!
+I can see %s attacking a site!
+%s is attacking someone!
+%s is attacking me!
+%s has been hit!
+%s has been killed!
+I've been killed!
+I've been kidnapped!
+#
+# CITY EVENTS
+#
+Something's just exploded!
+There's been an explosion!
+I can see smoke!
+There's a place on fire here!
+Someone's shooting near here!
+I can see someone with a gun!
+I just heard a crash!
+There's been a pile up!
+There's a fight going on!
+Someone's paid the price here!
+I've just found someone in a bad way!
+The police are raiding a joint!
+The F.B.I.'s on the case here!
+The police have just pulled someone!
+The F.B.I. have just pulled someone!
+%s has been hit!
+%s has been killed!
+I've been killed!
+I've been kidnapped!

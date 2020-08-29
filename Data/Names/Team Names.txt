@@ -1,0 +1,17 @@
+	#  Team Names.txt
+	#  Default team names for different skills.
+10	#  <-- number of team names
+#########################################
+# Team Name	#	Skill		#
+#########################################
+Burners		#	Arson		#
+Fighters	#	Fists		#
+Getaway		#	Driving		#
+Business	#	Business	#
+Raiders		#	Stealth		#
+Bombers		#	Explosives	#
+Influence	#	Intimidation	#
+Shooters	#	Firearms	#
+Blades		#	Knives		#
+Management	#	Organisation	#
+#########################################

@@ -1,0 +1,40 @@
+# HIT TABLE
+#
+#NUMBER OF WEAPON ENTRIES
+9
+#
+# 1=Winded, 2=Lightly Wounded, 3=Badly Wounded, 4=Dead
+#
+# Hit probability per action is derived from:
+#
+# (((Skill of Attacker) + 1) / ((Skill of Defender) + 1))) * Range Factor
+#
+# 
+#
+# Pistol
+8
+50	21	14	11	7	0	0	0
+# Tommy Gun
+8
+12	10	9	8	6	5	4	0
+# Rifle
+8
+34	50	50	50	24	20	17	0
+# Shotgun
+8
+52	100	52	24	20	0	0	0
+# Fist
+8
+52	0	0	0	0	0	0	0
+# Bat or Crowbar
+8
+52	0	0	0	0	0	0	0
+# Knife
+8
+52	0	0	0	0	0	0	0
+# Kick
+8
+105	0	0	0	0	0	0	0
+# Twin pistols
+8
+60	45	30	26	22	20	15	0

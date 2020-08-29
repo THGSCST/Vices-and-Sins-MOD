@@ -1,0 +1,79 @@
+#
+# FAILED ORDER TEXT
+#
+I can't get to my destination!				# gototype
+I can't get to my destination!				# guardbusiness
+I can't get to my destination!				# ownbusiness
+My target is still alive!				# killtype
+NULL							# standtype
+NULL							# adjustprotection
+I couldn't complete the deal!				# buypremesis
+They didn't want to pay!				# collectprotection
+I didn't get to hand over the cash!			# donate
+I can't set up the business!				# setupbusiness
+The meeting was rejected!				# setupmeeting
+Our informant didn't make it!				# rendevouswithspy
+I got thrown out of there!				# explore
+NULL							# lielow
+NULL							# patrol
+No-one wanted to know!					# recruit
+NULL							# returntobase
+The bribe was rejected!					# bribe
+They didn't want to join our little insurance scheme!	# extort
+They laughed in my face!				# intimidate
+They got away from us!					# kidnap
+We couldn't do it!					# raid
+My cover was blown!					# spy
+The target is still running around!			# ambush
+They're tougher than they look!				# assault
+The place is still standing!				# bomb
+My target is still alive!				# kill
+I got thrown out!					# smashup
+The bomb must've snuffed out!				# torch
+We lost them!						# tail
+NULL							# waitorder
+We couldn't do it!					# export
+#
+# Police & FBI orders
+#
+NULL							# escortprisoner
+NULL							# investigate
+NULL							# removebody
+NULL							# escorttocourt
+#
+# Accountant orders
+#
+NULL							# audit
+NULL							# evadetax
+#
+# Lawyer orders
+#
+They're all too honest!					# employpolice
+NULL							# gostraight
+NULL							# runforoffice
+The bribe was rejected!					# bribeofficials
+NULL							# gobacktocrime
+NULL							# dropoutofrunning
+#
+# Illegal business orders
+#
+NULL							# antiquesracket
+NULL							# cardgame
+NULL							# casino
+NULL							# counterfeit
+NULL							# dicegame
+NULL							# distillation
+NULL							# gamblingden
+NULL							# grifting
+NULL							# insiderdealing
+NULL							# loanshark
+NULL							# numbersracket
+NULL							# prostitution
+NULL							# prizefights
+NULL							# speakeasy
+NULL							# teamsters
+#
+# Non-order crimes
+#
+NULL							# launderingmoney
+NULL							# fencinggoods

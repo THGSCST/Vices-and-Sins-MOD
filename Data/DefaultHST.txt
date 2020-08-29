@@ -1,0 +1,126 @@
+###### HALL OF FAME TEXT FILE     #######
+# Number of entries          ############
+11
+#########################################
+# Must be from top to bottom
+
+# FIRST
+Alphonse
+# SECOND
+Capone
+# NICK
+Scarface
+# SCORE TERRITORY MANPOWER MONEY KILLS
+80 400 60 650000 37
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 10 6 1 1 0 0
+
+# FIRST
+Charles
+# SECOND
+Luciano
+# NICK
+Lucky
+# SCORE TERRITORY MANPOWER MONEY KILLS
+70 300 55 400000 28
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 0 5 3 2 1 0
+
+# FIRST
+John
+# SECOND
+Torrio
+# NICK
+Johnny
+# SCORE TERRITORY MANPOWER MONEY KILLS
+60 200 35 300000 28
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 13 3 1 3 1 0
+
+# FIRST
+Francesco
+# SECOND
+Yale
+# NICK
+Frankie
+# SCORE TERRITORY MANPOWER MONEY KILLS
+40 200 33 280000 21
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 12 1 3 3 1 1
+
+# FIRST
+Dion
+# SECOND
+O'Banion
+# NICK
+Deanie
+# SCORE TERRITORY MANPOWER MONEY KILLS
+35 175 30 200000 15
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 3 15 3 0 0 1
+
+# FIRST
+Earl
+# SECOND
+Weiss
+# NICK
+Hymie
+# SCORE TERRITORY MANPOWER MONEY KILLS
+30 120 25 150000 14
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 2 2 3 5 1 3
+
+# FIRST
+George
+# SECOND
+Moran
+# NICK
+Bugs
+# SCORE TERRITORY MANPOWER MONEY KILLS
+25 80 16 100000 12
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 13 4 3 7 0 1
+
+# FIRST
+Vito
+# SECOND
+Genovese
+# NICK
+Don Vitone
+# SCORE TERRITORY MANPOWER MONEY KILLS
+20 50 12 80000 9
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 3 14 1 0 0 1
+
+# FIRST
+Arthur
+# SECOND
+Schulz
+# NICK
+Dutch
+# SCORE TERRITORY MANPOWER MONEY KILLS
+15 40 10 50000 7
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 8 13 1 6 1 2
+
+# FIRST
+Tony
+# SECOND
+Genna
+# NICK
+The Gentleman
+#
+10 30 7 15000 4
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 2 8 3 4 1 3
+
+# FIRST
+Joe
+# SECOND
+Masseria
+# NICK
+The Boss
+# SCORE TERRITORY MANPOWER MONEY KILLS
+5 20 6 10000 1
+# Gender EthnicGroup Head Hair Eyes Nose Mouth
+0 3 15 1 1 1 0

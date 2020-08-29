@@ -1,0 +1,1525 @@
+###### PREDEFINED HOODS TEXT FILE #######					
+# Number of predefined hoods ############					
+40					#
+#					
+#					
+# no.1 Ian ""lucky"" livingstone"					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+63					# Business
+63					# Firearms
+63					# Fists
+63					# Knives
+63					# Arson
+63					# Explosives
+63					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+14					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+0					#
+# Nick name #############################					
+92					#
+# head index (no more than 63) ##########					
+60					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+#					
+# no.2 Charles "Diamond" Cornwall"					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+44					# Organisation
+63					# Business
+36					# Firearms
+44					# Fists
+52					# Knives
+36					# Arson
+36					# Explosives
+63					# Intimidation
+63					# Driving
+36					# Stealth
+# Ethnic group (0-14) ###################					
+14					#
+# First name index ######################					
+1					#
+# Second name ###########################					
+1					#
+# Nick name #############################					
+44					#
+# head index (no more than 63) ##########					
+61					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.3 ACE BUSINESS HOOD					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+63					# Business
+35					# Firearms
+51					# Fists
+37					# Knives
+35					# Arson
+46					# Explosives
+50					# Intimidation
+48					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+33					#
+# Nick name #############################					
+82					#
+# head index (no more than 63) ##########					
+10					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+5					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.4 ACE INTIMIDATOR					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+34					# Organisation
+37					# Business
+40					# Firearms
+41					# Fists
+50					# Knives
+43					# Arson
+44					# Explosives
+63					# Intimidation
+39					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+12					#
+# First name index ######################					
+6					#
+# Second name ###########################					
+37					#
+# Nick name #############################					
+168					#
+# head index (no more than 63) ##########					
+9					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no.5 TOP DRIVER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+49					# Organisation
+40					# Business
+42					# Firearms
+51					# Fists
+37					# Knives
+38					# Arson
+40					# Explosives
+48					# Intimidation
+63					# Driving
+40					# Stealth
+# Ethnic group (0-14) ###################					
+3					#
+# First name index ######################					
+6					#
+# Second name ###########################					
+45					#
+# Nick name #############################					
+88					#
+# head index (no more than 63) ##########					
+23					#
+# hair index (no more than 3) ###########					
+3					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.6 TOP BOMBER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+35					# Organisation
+38					# Business
+43					# Firearms
+39					# Fists
+47					# Knives
+43					# Arson
+63					# Explosives
+39					# Intimidation
+42					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+2					#
+# First name index ######################					
+1					#
+# Second name ###########################					
+13					#
+# Nick name #############################					
+58					#
+# head index (no more than 63) ##########					
+19					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 7 TOP EXPLORER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+37					# Organisation
+42					# Business
+39					# Firearms
+49					# Fists
+41					# Knives
+40					# Arson
+44					# Explosives
+41					# Intimidation
+53					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+1					#
+# Second name ###########################					
+48					#
+# Nick name #############################					
+199					#
+# head index (no more than 63) ##########					
+20					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no. 8 THUG					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+45					# Organisation
+36					# Business
+40					# Firearms
+63					# Fists
+63					# Knives
+45					# Arson
+46					# Explosives
+36					# Intimidation
+34					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+3					#
+# First name index ######################					
+8					#
+# Second name ###########################					
+26					#
+# Nick name #############################					
+94					#
+# head index (no more than 63) ##########					
+12					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+5					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no. 9 TORCHING ACE					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+43					# Organisation
+49					# Business
+47					# Firearms
+41					# Fists
+34					# Knives
+63					# Arson
+51					# Explosives
+53					# Intimidation
+38					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+8					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+18					#
+# Nick name #############################					
+81					#
+# head index (no more than 63) ##########					
+22					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 10 TOP RECRUITER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+37					# Organisation
+51					# Business
+51					# Firearms
+51					# Fists
+34					# Knives
+39					# Arson
+37					# Explosives
+34					# Intimidation
+50					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+2					#
+# First name index ######################					
+8					#
+# Second name ###########################					
+43					#
+# Nick name #############################					
+128					#
+# head index (no more than 63) ##########					
+6					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+4					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.11 BLADES AND BULLETS					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+38					# Organisation
+39					# Business
+63					# Firearms
+49					# Fists
+63					# Knives
+34					# Arson
+41					# Explosives
+34					# Intimidation
+45					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+3					#
+# First name index ######################					
+8					#
+# Second name ###########################					
+32					#
+# Nick name #############################					
+177					#
+# head index (no more than 63) ##########					
+2					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no.12 ACE HITSQUAD LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+39					# Business
+63					# Firearms
+52					# Fists
+41					# Knives
+49					# Arson
+35					# Explosives
+63					# Intimidation
+47					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+1					#
+# Second name ###########################					
+25					#
+# Nick name #############################					
+26					#
+# head index (no more than 63) ##########					
+8					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.13 ACE HITSQUAD DRIVER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+46					# Business
+63					# Firearms
+35					# Fists
+41					# Knives
+39					# Arson
+50					# Explosives
+63					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+7					#
+# First name index ######################					
+4					#
+# Second name ###########################					
+43					#
+# Nick name #############################					
+183					#
+# head index (no more than 63) ##########					
+15					#
+# hair index (no more than 3) ###########					
+3					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.14 ACE INTIMIDATOR LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+42					# Business
+40					# Firearms
+39					# Fists
+48					# Knives
+44					# Arson
+49					# Explosives
+63					# Intimidation
+48					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+3					#
+# First name index ######################					
+8					#
+# Second name ###########################					
+46					#
+# Nick name #############################					
+83					#
+# head index (no more than 63) ##########					
+7					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.15 TOP DRIVER FOR PATROL					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+53					# Organisation
+45					# Business
+63					# Firearms
+42					# Fists
+34					# Knives
+41					# Arson
+52					# Explosives
+45					# Intimidation
+63					# Driving
+49					# Stealth
+# Ethnic group (0-14) ###################					
+6					#
+# First name index ######################					
+3					#
+# Second name ###########################					
+36					#
+# Nick name #############################					
+82					#
+# head index (no more than 63) ##########					
+12					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+4					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.16 TOP BOMBER LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+42					# Business
+42					# Firearms
+44					# Fists
+40					# Knives
+44					# Arson
+63					# Explosives
+39					# Intimidation
+44					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+2					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+15					#
+# Nick name #############################					
+202					#
+# head index (no more than 63) ##########					
+22					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no.17 TOP EXPLORER LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+51					# Business
+35					# Firearms
+48					# Fists
+49					# Knives
+45					# Arson
+42					# Explosives
+39					# Intimidation
+50					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+10					#
+# First name index ######################					
+3					#
+# Second name ###########################					
+47					#
+# Nick name #############################					
+39					#
+# head index (no more than 63) ##########					
+21					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+4					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.18 STREET FIGHTER LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+37					# Business
+39					# Firearms
+63					# Fists
+63					# Knives
+40					# Arson
+34					# Explosives
+52					# Intimidation
+42					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+7					#
+# First name index ######################					
+1					#
+# Second name ###########################					
+45					#
+# Nick name #############################					
+75					#
+# head index (no more than 63) ##########					
+5					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.19 BURNING AND BOMBING LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+49					# Business
+43					# Firearms
+47					# Fists
+47					# Knives
+63					# Arson
+63					# Explosives
+49					# Intimidation
+38					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+3					#
+# First name index ######################					
+7					#
+# Second name ###########################					
+24					#
+# Nick name #############################					
+199					#
+# head index (no more than 63) ##########					
+24					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 20 ACE HITMAN MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+38					# Organisation
+41					# Business
+63					# Firearms
+34					# Fists
+46					# Knives
+37					# Arson
+47					# Explosives
+63					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+9					#
+# First name index ######################					
+7					#
+# Second name ###########################					
+43					#
+# Nick name #############################					
+34					#
+# head index (no more than 63) ##########					
+15					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.21 NOT QUITE SO SUPERHOOD					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+50					# Organisation
+50					# Business
+63					# Firearms
+63					# Fists
+63					# Knives
+63					# Arson
+63					# Explosives
+63					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+10					#
+# First name index ######################					
+3					#
+# Second name ###########################					
+19					#
+# Nick name #############################					
+84					#
+# head index (no more than 63) ##########					
+1					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.22 ACE HITMAN MARK 3					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+45					# Organisation
+35					# Business
+63					# Firearms
+35					# Fists
+36					# Knives
+53					# Arson
+51					# Explosives
+63					# Intimidation
+40					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+3					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+5					#
+# Nick name #############################					
+108					#
+# head index (no more than 63) ##########					
+55					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.23 ACE BUSINESS HOOD MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+63					# Business
+50					# Firearms
+41					# Fists
+43					# Knives
+42					# Arson
+45					# Explosives
+51					# Intimidation
+48					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+4					#
+# Second name ###########################					
+7					#
+# Nick name #############################					
+19					#
+# head index (no more than 63) ##########					
+35					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.24 ACE INTIMIDATOR MARK 2					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+45					# Organisation
+49					# Business
+51					# Firearms
+34					# Fists
+38					# Knives
+37					# Arson
+41					# Explosives
+63					# Intimidation
+35					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+1					#
+# First name index ######################					
+5					#
+# Second name ###########################					
+9					#
+# Nick name #############################					
+84					#
+# head index (no more than 63) ##########					
+5					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.25 TOP DRIVER MARK 2					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+39					# Organisation
+35					# Business
+53					# Firearms
+48					# Fists
+46					# Knives
+39					# Arson
+42					# Explosives
+44					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+4					#
+# First name index ######################					
+3					#
+# Second name ###########################					
+13					#
+# Nick name #############################					
+182					#
+# head index (no more than 63) ##########					
+1					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no.26 TOP BOMBER MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+41					# Organisation
+47					# Business
+38					# Firearms
+39					# Fists
+37					# Knives
+42					# Arson
+63					# Explosives
+40					# Intimidation
+47					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+9					#
+# First name index ######################					
+4					#
+# Second name ###########################					
+48					#
+# Nick name #############################					
+15					#
+# head index (no more than 63) ##########					
+33					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+4					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 27 TOP EXPLORER MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+37					# Organisation
+46					# Business
+47					# Firearms
+48					# Fists
+46					# Knives
+46					# Arson
+38					# Explosives
+49					# Intimidation
+37					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+43					#
+# Nick name #############################					
+43					#
+# head index (no more than 63) ##########					
+50					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 28 ANOTHER THUG					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+44					# Organisation
+42					# Business
+42					# Firearms
+63					# Fists
+63					# Knives
+34					# Arson
+44					# Explosives
+47					# Intimidation
+46					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+5					#
+# Second name ###########################					
+29					#
+# Nick name #############################					
+38					#
+# head index (no more than 63) ##########					
+4					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no. 29 ANOTHER FIRE STARTER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+45					# Organisation
+49					# Business
+51					# Firearms
+37					# Fists
+42					# Knives
+63					# Arson
+35					# Explosives
+51					# Intimidation
+38					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+6					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+12					#
+# Nick name #############################					
+79					#
+# head index (no more than 63) ##########					
+5					#
+# hair index (no more than 3) ###########					
+3					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 30 ANOTHER TOP RECRUITER					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+52					# Organisation
+41					# Business
+51					# Firearms
+43					# Fists
+42					# Knives
+51					# Arson
+41					# Explosives
+43					# Intimidation
+52					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+12					#
+# First name index ######################					
+1					#
+# Second name ###########################					
+22					#
+# Nick name #############################					
+199					#
+# head index (no more than 63) ##########					
+20					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.31 MORE BLADES AND BULLETS					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+41					# Organisation
+53					# Business
+63					# Firearms
+51					# Fists
+63					# Knives
+43					# Arson
+52					# Explosives
+63					# Intimidation
+44					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+5					#
+# Second name ###########################					
+22					#
+# Nick name #############################					
+65					#
+# head index (no more than 63) ##########					
+44					#
+#					
+0					#
+#					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.32 ACE HITSQUAD LIEUTENANT MARK 2					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+36					# Business
+63					# Firearms
+48					# Fists
+49					# Knives
+40					# Arson
+50					# Explosives
+63					# Intimidation
+38					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+4					#
+# First name index ######################					
+5					#
+# Second name ###########################					
+3					#
+# Nick name #############################					
+193					#
+# head index (no more than 63) ##########					
+9					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+2					#
+#					
+#					
+# no.33 ACE HITSQUAD DRIVER MARK 2					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+50					# Business
+63					# Firearms
+35					# Fists
+34					# Knives
+43					# Arson
+35					# Explosives
+63					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+4					#
+# First name index ######################					
+4					#
+# Second name ###########################					
+36					#
+# Nick name #############################					
+169					#
+# head index (no more than 63) ##########					
+30					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+3					#
+# nose (no more than 1) #################					
+1					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no.34 ACE INTIMIDATOR LIEUTENANT MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+53					# Business
+45					# Firearms
+35					# Fists
+44					# Knives
+53					# Arson
+35					# Explosives
+63					# Intimidation
+38					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+8					#
+# First name index ######################					
+5					#
+# Second name ###########################					
+15					#
+# Nick name #############################					
+130					#
+# head index (no more than 63) ##########					
+57					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.35 TOP DRIVER FOR PATROL MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+48					# Organisation
+35					# Business
+63					# Firearms
+40					# Fists
+44					# Knives
+51					# Arson
+43					# Explosives
+50					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+9					#
+# First name index ######################					
+2					#
+# Second name ###########################					
+11					#
+# Nick name #############################					
+121					#
+# head index (no more than 63) ##########					
+58					#
+# hair index (no more than 3) ###########					
+1					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+0					#
+#					
+#					
+# no.36 TOP BOMBER LIEUTENANT MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+40					# Business
+53					# Firearms
+36					# Fists
+43					# Knives
+48					# Arson
+63					# Explosives
+45					# Intimidation
+36					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+7					#
+# Second name ###########################					
+11					#
+# Nick name #############################					
+186					#
+# head index (no more than 63) ##########					
+42					#
+# hair index (no more than 3) ###########					
+3					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.37 TOP EXPLORER LIEUTENANT MARK 2					
+#					
+# Gender					
+1					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+48					# Business
+41					# Firearms
+46					# Fists
+39					# Knives
+35					# Arson
+50					# Explosives
+48					# Intimidation
+48					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+0					#
+# Second name ###########################					
+40					#
+# Nick name #############################					
+168					#
+# head index (no more than 63) ##########					
+38					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+1					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no.38 STREET FIGHTER LIEUTENANT MARK 2					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+39					# Business
+52					# Firearms
+63					# Fists
+63					# Knives
+49					# Arson
+40					# Explosives
+63					# Intimidation
+34					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+2					#
+# Second name ###########################					
+32					#
+# Nick name #############################					
+85					#
+# head index (no more than 63) ##########					
+31					#
+# hair index (no more than 3) ###########					
+0					#
+# eyes (no more than 7) #################					
+4					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+3					#
+#					
+#					
+# no. 39 TORCHING LIEUTENANT					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+63					# Organisation
+49					# Business
+46					# Firearms
+42					# Fists
+50					# Knives
+63					# Arson
+48					# Explosives
+43					# Intimidation
+38					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+13					#
+# First name index ######################					
+6					#
+# Second name ###########################					
+40					#
+# Nick name #############################					
+19					#
+# head index (no more than 63) ##########					
+7					#
+# hair index (no more than 3) ###########					
+2					#
+# eyes (no more than 7) #################					
+0					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+#					
+#					
+# no. 40 ACE HITMAN MARK 4					
+#					
+# Gender					
+0					
+#					
+# Intelligence ##########################					
+255					# Intelligence
+# Skills (10 in total) ##################					
+46					# Organisation
+39					# Business
+63					# Firearms
+34					# Fists
+37					# Knives
+41					# Arson
+42					# Explosives
+63					# Intimidation
+63					# Driving
+63					# Stealth
+# Ethnic group (0-14) ###################					
+2					#
+# First name index ######################					
+3					#
+# Second name ###########################					
+19					#
+# Nick name #############################					
+176					#
+# head index (no more than 63) ##########					
+0					#
+# hair index (no more than 3) ###########					
+3					#
+# eyes (no more than 7) #################					
+2					#
+# nose (no more than 1) #################					
+0					#
+# mouth (no more than 7) ################					
+1					#
+######################################################################					

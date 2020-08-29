@@ -1,0 +1,32 @@
+# EXPORT RATIO
+#
+# VALUE OF CASES SENT FOR EXPORT
+#
+# MONEY IS DERIVED FROM FACTOR X VALUE OF CASE X NUMBER SENT IN TOTAL BY ALL PLAYERS IN GAME WEEK
+#
+# FORMAT:
+#Number of Cases placed for Export by all Players / 8, Proportional Value of each crate in dollars *100
+#
+# NOTE: REMEMBER: TOTAL HAS TO BE DIVIDED BY 100!
+#
+# ANYTHING MORE THAN 63 CASES EXPORTED STILL SCORES 5% OF VALUE PER CASE.
+#
+# NORMAL EXPORT CASE VALUES
+#
+# Counterfeit Currency
+# $1000
+#
+# Fenced Antiques
+# $200
+#
+# Liquor
+# $100
+#
+0	90	
+1	85
+2	80
+3	75
+4	70
+5	65
+6	60
+7	50

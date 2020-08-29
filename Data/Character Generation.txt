@@ -1,0 +1,203 @@
+# CHARACTER/HOOD GENERATION FILE - Vices and Sins Mod
+#
+# Number of Characters/Hood Types described in this file:
+12
+#
+# Weighting -> Chance to trigger
+# Intelligence Star Scale:
+# Intelligence (Constant Base, Random Variable) - The sum of Base plus Variable shall be always 256 or less!
+# Other Skills Star Scale: ½[0..3], 1(4..11), 1½(12..19), 2(20..27), 2½(28..31), 3(32..35), 3½(36-39), 4(40..51), 4½(52..59), 5(60..63)
+# Other Skills (Constant Base 0..50, Random Variable) - The sum of Base plus Variable shall be 64 max, or else game will skip this type.
+########################################
+# 1.Useless Hood
+# Unemployed and desperate. They are many, cheap, but hopeless.
+#
+60		# Weighting
+0	64	# Intelligence (1)
+0	24	# Arson (7)
+0	24	# Fists (5)
+0	24	# Driving (10)
+0	24	# Business (3)
+0	24	# Stealth (11)
+0	24	# Explosives (8)
+0	24	# Intimidation (9)
+0	24	# Firearms (4)
+0	24	# Knives (6)
+0   24	# Organisation (2)
+########################################
+# 2.Mediocre Hood
+# A good hood should be flexible, like a "Swiss army knife" it can perform any task but it will not do it very well.
+#
+20		# Weighting
+64	128	# Intelligence
+8	32	# Arson
+8	32	# Fists
+8	32	# Driving
+8	32	# Business
+8	32	# Stealth
+8	32	# Explosives
+8	32	# Intimidation
+8	32	# Firearms
+8	32	# Knives
+8	32	# Organisation
+########################################
+# 3.Salesman
+# Know how to sell goods.
+#
+1		# Weighting
+64	128	# Intelligence
+0	16	# Arson
+0	16	# Fists
+16	32	# Driving
+32	32	# Business
+0	16	# Stealth
+0	16	# Explosives
+0	16	# Intimidation
+0	16	# Firearms
+0	16	# Knives
+32	32	# Organisation
+########################################
+# 4.Manager
+# Educated in business, can run any enterprise.
+#
+1		# Weighting
+128	128	# Intelligence
+0	16	# Arson
+0	16	# Fists
+16	32	# Driving
+40	24	# Business
+0	16	# Stealth
+0	16	# Explosives
+0	16	# Intimidation
+0	16	# Firearms
+0	16	# Knives
+40	24	# Organisation
+########################################
+# 5.Hunter
+# Good with Guns and Knives
+#
+1		# Weighting
+64	128	# Intelligence
+16	32	# Arson
+16	32	# Fists
+16	32	# Driving
+0	16	# Business
+16	32	# Stealth
+16	32	# Explosives
+16	32	# Intimidation
+32	32	# Firearms
+32	32	# Knives
+16	32	# Organisation
+########################################
+# 6.Hitman
+# Specialist in the art of killing
+#
+1		# Weighting
+128	128	# Intelligence
+32	32	# Arson
+16	32	# Fists
+32	32	# Driving
+0	16	# Business
+32	32	# Stealth
+16	32	# Explosives
+16	32	# Intimidation
+40	24	# Firearms
+40	24	# Knives
+32	32	# Organisation
+########################################
+# 7.Army Veteran
+# Tough guy with military training
+#
+1		# Weighting
+64	128	# Intelligence
+16	32	# Arson
+32	32	# Fists
+32	32	# Driving
+0	16	# Business
+0	16	# Stealth
+32	32	# Explosives
+32	32	# Intimidation
+32	32	# Firearms
+32	32	# Knives
+32	32	# Organisation
+########################################
+# 8.Artist
+# A trickster who only knows how to act.
+#
+1		# Weighting
+128	128	# Intelligence
+0	16	# Arson
+0	16	# Fists
+32	32	# Driving
+0	16	# Business
+32	32	# Stealth
+0	16	# Explosives
+40	24	# Intimidation
+0	16	# Firearms
+0	16	# Knives
+16	32	# Organisation
+########################################
+# 9.Private Detective
+# Information seeker
+#
+1		# Weighting
+128	128	# Intelligence
+0	16	# Arson
+0	16	# Fists
+32	32	# Driving
+0	16	# Business
+40	24	# Stealth
+0	16	# Explosives
+16	32	# Intimidation
+16	32	# Firearms
+16	32	# Knives
+16	32	# Organisation
+########################################
+# 10.Anarchist
+# He likes chaos more than cash
+#
+1		# Weighting
+128	128	# Intelligence
+40	24	# Arson
+16	32	# Fists
+16	32	# Driving
+0	16	# Business
+16	32	# Stealth
+40	24	# Explosives
+16	32	# Intimidation
+32	32	# Firearms
+16	32	# Knives
+0	32	# Organisation
+########################################
+# 11.Ex-convic
+# Crime does pay
+#
+1		# Weighting
+64	128	# Intelligence
+0	16	# Arson
+0	32	# Fists
+32	32	# Driving
+0	16	# Business
+0	32	# Stealth
+0	16	# Explosives
+32	32	# Intimidation
+32	32	# Firearms
+32	32	# Knives
+0	32	# Organisation
+########################################
+# 12.Academic Professor
+# He has a lot of theory, but no practice.
+#
+1		# Weighting
+192 64	# Intelligence
+32	32	# Arson
+0	16	# Fists
+32	32	# Driving
+0	32	# Business
+0	16	# Stealth
+32	32	# Explosives
+0	16	# Intimidation
+0	16	# Firearms
+0	16	# Knives
+40	24	# Organisation
+########################################

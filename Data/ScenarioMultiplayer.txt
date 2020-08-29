@@ -1,0 +1,60 @@
+#################################
+# SCENARIOMULTIPLAYER.TXT	#
+#################################
+#
+# Number of Scenarios
+#
+10
+#
+#
+#
+A WALK IN THE PARK
+[A WALK IN THE PARK.
+~This leafy, idyllic and sleepy city is about to be woken by the sound of mayhem and murder.]
+Scene1.dat
+#
+CAPITAL CITY
+[CAPITAL CITY.
+~While the politicians argue over the escalating mob violence, another city is falling to organized crime.]
+Scene2.dat
+#
+COME AND GET ME
+[COME AND GET ME.
+~The mansions of the Gang Lords overlook a defenseless city. There’s enough cash out there to recruit a whole army. Now there’s an idea...]
+Scene3.dat
+#
+DEADLY BRIDGES
+[DEADLY BRIDGES.
+~Your competition can see exactly where you are and they’ll be coming after you, so you’d better be ready.]
+Scene4.dat
+#
+FORTRESS
+[FORTRESS.
+~The lines have been drawn, and are now about to be crossed. You need to work fast to take this town before someone else does.]
+Scene5.dat
+#
+LAST MAN STANDING
+[LAST MAN STANDING.
+~In a town this small a gang war wouldn’t be good for business, but business isn’t getting any better and the gloves are about to come off.]
+Scene6.dat
+#
+RICH PICKINGS
+[RICH PICKINGS.
+~Stuck out on the edge of the town, four gangs with nothing look towards the wealth and power just a few blocks away.]
+Scene7.dat
+#
+TAKE OVER
+[TAKE OVER.
+~No one living around here has the slightest cue as to what is about to happen...]
+Scene8.dat
+#
+WHERE ARE YOU?
+[WHERE ARE YOU?
+~Your hoods have been searching. You know roughly where the competition is, but that was the easy part. Now you have to deal with them, and don’t think that they have not been busy too.]
+Scene9.dat
+#
+ZIG ZAG
+[ZIG ZAG.
+~Separated by Geography but not by intent, the four gangs race to exploit the city center.]
+Scene10.dat
+#

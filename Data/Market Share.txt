@@ -1,0 +1,39 @@
+# Max businesses of a given type
+30
+#
+# MARKET SHARE.
+#
+# Used for the number of businesses owned by a player
+#
+# FORMAT: Number owned, factor.
+#
+1	100
+2	95
+3	90
+4	85
+5	80
+6	75
+7	71
+8	87
+9	83
+10	79
+11	76
+12	73
+13	70
+14	67
+15	65
+16	63
+17	61
+18	59
+19	58
+20	57
+21	56
+22	55
+23	54
+24	53
+25	52
+26	51
+27	50
+28	49
+29	48
+30	47

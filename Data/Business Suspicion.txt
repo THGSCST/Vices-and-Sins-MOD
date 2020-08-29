@@ -1,0 +1,155 @@
+# Suspicion of Commercial and Industrial Businesses - Vices and Sins Mod													
+#															
+#															
+#															
+# Black Market	Casino	Counterfeit	Dice Game	Gambling Den	Grifters	Insider Trading	Loan Shark	Moonshine	Numbers	Office	Prizefight	Speakeasy	Teamsters	Whorehouse	
+1	0	0	0	2	0	2	2	0	0	2	0	0	2	0	# Accountants
+1	0	0	1	0	0	0	0	0	0	2	0	0	2	0	# Acupuncture Clinic
+0	0	0	0	1	2	0	0	0	0	2	0	0	2	1	# Antiques Dealer
+0	0	0	0	2	0	0	0	0	0	2	0	0	2	1	# Art Gallery
+1	1	1	0	2	2	0	0	0	0	2	1	0	2	1	# Auction Rooms
+2	1	1	2	2	0	0	2	0	0	2	1	0	2	0	# Auto Dealers
+1	0	0	1	0	2	0	1	0	0	2	0	0	2	0	# Insurance Company
+0	0	0	0	1	0	0	0	1	1	2	0	1	2	0	# Bakery
+1	0	0	2	1	1	0	0	1	1	2	0	1	2	0	# Barbers
+0	0	0	0	1	0	0	0	0	1	2	0	1	2	2	# Beauty Parlor
+0	0	0	1	0	1	0	0	2	1	2	2	0	2	0	# Blacksmiths
+2	0	0	2	0	0	0	0	0	1	2	0	0	2	0	# Book Store
+1	0	0	2	1	1	0	0	1	1	2	0	0	2	0	# Breakfast Bar
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	2	# Bridal Parlor
+0	0	0	0	1	0	0	0	1	1	2	0	1	2	0	# Butchers
+2	0	1	2	2	2	0	1	1	2	2	2	2	2	0	# Cab Company
+1	0	0	1	1	1	0	0	1	1	2	0	2	2	0	# Cafe
+0	0	0	0	0	0	0	0	0	1	2	0	1	2	0	# Cake Store
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Candy Store
+2	0	0	2	2	2	0	0	1	2	2	1	1	2	0	# Carpet Store
+0	0	0	0	0	0	0	0	2	0	2	0	0	2	0	# Catering Suppliers
+0	0	0	0	0	0	0	0	1	1	2	0	1	2	0	# Cheese Store
+0	0	0	0	0	1	0	0	0	1	2	0	0	2	0	# China Store
+0	0	0	0	0	0	0	0	1	0	2	0	0	2	0	# Chiropodists
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Clothiers
+2	0	0	2	2	0	0	0	0	0	2	0	0	2	0	# Coffin Makers
+1	0	0	1	2	0	0	0	0	2	2	0	2	2	0	# Convenience Store
+0	0	0	0	0	0	0	0	2	0	2	0	0	2	0	# Cosmetics Store
+2	0	0	2	1	0	0	0	0	1	2	1	0	2	2	# Dance Studio
+0	0	0	0	0	0	0	0	1	1	2	0	0	2	1	# Delicatessen
+0	0	0	0	0	0	0	1	0	0	2	0	0	2	0	# Orthodontists
+1	2	2	1	2	0	2	2	2	0	2	0	2	2	0	# Department Store
+1	0	0	1	0	0	2	0	0	0	2	0	0	2	0	# Detective Agency
+0	0	0	0	1	0	1	2	0	0	2	0	0	2	1	# Diamond Merchant
+0	0	0	0	0	0	0	1	2	0	2	0	0	2	0	# Doctors
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	1	# Dressmakers
+0	0	0	0	1	1	1	1	2	1	2	0	1	2	0	# Drug Store
+0	0	0	0	0	1	0	1	0	0	2	0	0	2	0	# Electrical Suppliers
+1	0	0	1	0	1	0	0	0	0	2	0	0	2	0	# Electricians
+2	0	0	2	0	1	0	0	0	1	2	0	0	2	1	# Costume Store
+1	0	1	1	1	0	2	2	0	0	2	0	0	2	0	# Finance Company
+0	0	0	0	0	0	0	0	1	1	2	0	1	2	0	# Fishmongers
+2	0	0	2	1	1	0	0	1	1	2	0	1	2	1	# Florists
+1	0	0	1	0	1	0	0	0	1	2	0	0	2	2	# Fortune Tellers
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# French Polishers
+0	0	0	0	0	0	0	0	1	1	2	0	0	2	0	# Fruit and Veg. Store
+1	0	0	1	1	0	0	0	0	0	2	1	0	2	0	# Funeral Directors
+0	0	0	0	0	0	1	2	0	0	2	0	0	2	2	# Fur Store
+1	0	0	1	2	2	0	1	1	2	2	2	2	2	0	# Furniture Store
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Gardening Suppliers
+2	0	0	2	0	1	0	0	1	0	2	0	0	2	0	# Gas Station/Mechanic
+0	0	0	0	0	2	0	0	0	0	2	0	0	2	0	# Gift Store
+0	0	0	0	1	1	1	1	0	0	2	0	0	2	1	# Gold Merchants
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Golf Store
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Gramophone Store
+0	0	0	0	0	1	0	0	1	1	2	0	1	2	0	# Grocery Store
+0	0	0	0	0	1	0	0	2	0	2	0	1	2	0	# Glassware
+2	0	0	2	1	1	0	0	0	1	2	2	0	2	0	# Gym
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Haberdashery
+1	0	0	1	0	0	0	0	0	0	2	0	0	2	0	# Hair Salon
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Wig Makers
+1	0	0	1	0	0	0	0	1	0	2	0	0	2	0	# Hardware Store
+0	0	0	0	0	0	0	0	1	0	2	0	0	2	2	# Health Center
+0	0	0	0	0	1	0	0	0	1	2	0	0	2	0	# Ice Store
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Ice Cream Parlor
+0	0	0	0	1	2	1	1	0	0	2	0	0	2	1	# Jewelers
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	2	# Ladieswear
+1	2	2	1	2	1	2	2	0	0	2	0	2	2	0	# Bank (Large)
+2	2	1	2	2	1	1	0	1	0	2	1	2	2	2	# Hotel (Large)
+1	0	0	1	0	0	0	0	2	1	2	0	0	2	0	# Laundry
+0	0	0	0	0	0	1	2	0	0	2	0	0	2	0	# Lawyers
+2	0	0	2	1	0	0	0	0	2	2	0	0	2	0	# Library
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	2	# Lingerie Store
+1	0	0	1	1	1	0	0	1	2	2	0	1	2	0	# Local Store
+0	0	0	0	0	1	0	0	0	1	2	0	0	2	0	# Locksmiths
+0	0	0	0	0	0	0	0	0	1	2	1	0	2	0	# Lumber Merchant
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	2	# Massage Parlor
+0	0	0	0	0	0	0	0	1	0	2	0	1	2	0	# Milk Bar
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Milliners
+0	1	0	0	2	0	0	0	0	0	2	0	1	2	0	# Movie Theater
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Music Store
+2	0	0	2	0	0	0	0	0	2	2	0	0	2	0	# News Agency
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Nursery Store
+0	0	0	0	0	0	0	1	0	0	2	0	0	2	0	# Optometrist
+2	0	0	2	0	2	0	1	0	2	2	0	0	2	0	# Pawnbrokers
+0	0	0	0	0	0	0	0	2	0	2	0	0	2	1	# Perfume Store
+0	0	0	0	0	0	0	0	1	1	2	0	0	2	0	# Pest Controllers
+1	0	0	1	0	1	0	0	1	1	2	0	0	2	0	# Pet Store
+0	0	0	0	0	0	0	0	1	0	2	0	0	2	0	# Photographers
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Piano Store
+0	0	0	0	0	0	0	0	2	0	2	0	0	2	0	# Plumbers
+2	0	0	2	1	2	0	0	0	1	2	2	1	2	0	# Pool hall
+2	0	2	2	0	0	0	0	0	1	2	0	0	2	0	# Printers
+1	0	0	1	0	0	1	1	0	2	2	0	0	2	0	# Real Estate
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Record Store
+2	0	0	2	2	0	0	0	1	0	2	2	1	2	0	# Removals Company
+1	1	0	1	2	0	0	0	1	1	2	1	2	2	1	# Restaurant
+0	0	0	0	0	1	0	0	2	1	2	0	0	2	0	# Saddlers
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Shoe Repairs
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Shoe Store
+2	0	0	2	0	0	0	0	0	0	2	0	0	2	0	# Sign Writers
+0	0	0	0	0	0	0	0	1	1	2	0	1	2	0	# Soda Fountain
+1	1	2	1	2	1	2	2	1	0	2	0	2	2	0	# Bank
+1	1	2	1	2	1	1	0	1	0	2	0	2	2	2	# Hotel
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Sports Equipment
+2	0	0	2	0	2	0	0	0	1	2	0	0	2	0	# Stamp and Coin Dealers
+2	0	2	2	0	0	0	0	0	1	2	0	0	2	0	# Stationers
+1	0	0	1	0	0	0	0	0	1	2	0	0	2	0	# Tailors
+1	0	0	1	0	2	0	0	0	1	2	0	0	2	1	# Tattoo Parlor
+2	0	0	2	0	1	2	0	0	1	2	0	0	2	0	# Telegraph Office
+1	1	0	1	0	0	0	0	0	0	2	1	2	2	2	# Theater
+0	0	0	0	0	0	0	0	0	1	2	0	0	2	0	# Tobacconists
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Toy Store
+0	0	0	0	0	0	1	1	0	0	2	0	0	2	0	# Trade Union
+0	0	0	0	0	0	0	0	1	1	2	0	0	2	0	# Upholsterers
+1	0	0	1	1	2	0	0	0	0	2	0	0	2	0	# Watchmakers
+0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	# Window Cleaners
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Abattoir
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Builders
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Cannery
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Cement Factory
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Ceramics
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Chandler
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Leather Curers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Docks
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Engineers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Excavators
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Fabricators
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Factory
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Food Processors
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Freight Forwarding
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Furriers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Glaziers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Ice House
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Ironmongers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Joiners
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Junk Yard
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Lumber Yard
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Milk Yard
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Newspaper
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Packaging Plant
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Paper Mill
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Radio Station
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Sheet Workers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Steel Mill
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Stone Masons
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Tanners
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Textiles
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Weavers
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	# Wheelwrights

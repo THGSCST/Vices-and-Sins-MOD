@@ -1,0 +1,25 @@
+# Illegal business table.																													
+#																													
+# Format = 	Type of business, Profit Group, Running Cost Group, LV Min., LV Max.																												
+#		Float Max., Content, Populace, Inherent Costs, Stock Value, Size, Inherent Profit, Building Reference, Set up, Profit Ratio Table.																											
+#																													
+#City Capacity and Number present is not calculated. These are deduced from the ratio table and the actual number in the city as they are set up.																													
+#Protection is not tabulated, since an illegal business cannot be protected!																													
+#																													
+# Profit and running cost Groups: The higher the number, the greater the amount. Income group 1 makes no profit.																													
+#			PG	CC Grp	RCG	Lvmin	Lvmax	Time	Content	Popul.	IC	SV	Size	IP	bref	Set up	Union	Capacit	Liquor	Stolen	C.feit	S.plier	Consumer		a	The	At the	Of the	On the
+Black Market			36	2	1	0	100	2	0	6	10	0	1	10	1	100	0	3	1	1	1	0	1		A Card Game	the Card Game	at the Card Game	of the Card Game	on the Card Game
+Casino			40	3	1	128	255	4	0	15	100	0	1	100	1	1100	0	6	0	0	0	0	0		A Casino	the Casino	at the Casino	of the Casino	on the Casino
+Counterfeit Press			34	2	1	0	255	2	0	0	30	0	1	30	1	1000	0	12	0	0	1	1	0		A Counterfeit Press	the Counterfeit Press	at the Counterfeit Press	of the Counterfeit Press	on the Counterfeit Press
+Dice Game			36	2	1	0	100	2	0	6	10	0	1	10	1	100	0	3	0	0	0	0	0		A Dice Game	the Dice Game	at the Dice Game	of the Dice Game	on the Dice Game
+Gambling Den			37	2	1	0	128	2	0	10	15	0	1	15	1	200	0	3	0	0	0	0	0		A Gambling Den	the Gambling Den	at the Gambling Den	of the Gambling Den	on the Gambling Den
+Grifters			36	2	1	0	100	2	0	0	10	0	1	10	1	100	0	3	0	0	0	0	0		A Grifters	the Grifters	at the Grifters	of the Grifters	on the Grifters
+Insider Trading			38	2	1	0	255	2	0	2	10	0	1	10	1	650	0	3	0	0	0	0	0		An Insider Trading	the Insider Trading	at the Insider Trading	of the Insider Trading	on the Insider Trading
+Loan Shark			38	1	1	0	255	2	0	8	10	0	1	10	1	500	0	3	0	0	0	0	0		A Loan Shark	the Loan Shark	at the Loan Shark	of the Loan Shark	on the Loan Shark
+Moonshine Still			34	2	1	0	255	2	0	0	20	0	1	20	1	750	0	12	1	0	0	1	0		A Moonshine Still	the Moonshine Still	at the Moonshine Still	of the Moonshine Still	on the Moonshine Still
+Numbers Racket			37	2	1	0	128	2	0	4	15	0	1	15	1	200	0	3	0	0	0	0	0		A Numbers Racket	the Numbers Racket	at the Numbers Racket	of the Numbers Racket	on the Numbers Racket
+Office			34	0	1	0	255	2	0	0	10	0	1	10	1	200	0	3	0	0	0	0	0		An Office	the Office	at the Office	of the Office	on the Office
+Bloodsport Ring			36	1	1	0	100	2	0	4	20	0	1	20	1	100	0	3	0	0	0	0	0		A Prizefight Ring	the Prizefight Ring	at the Prizefight Ring	of the Prizefight Ring	on the Prizefight Ring
+Speakeasy			39	1	1	0	255	2	0	12	50	0	1	50	1	650	0	20	1	0	0	0	1		A Speakeasy	the Speakeasy	at the Speakeasy	of the Speakeasy	on the Speakeasy
+Teamsters			35	2	1	0	255	2	0	0	20	0	1	20	1	450	0	3	0	0	0	0	0		A Teamsters	the Teamsters	at the Teamsters	of the Teamsters	on the Teamsters
+Whorehouse			38	1	1	0	255	2	0	10	75	0	1	75	1	650	0	3	0	0	0	0	0		A Whorehouse	the Whorehouse	at the Whorehouse	of the Whorehouse	on the Whorehouse

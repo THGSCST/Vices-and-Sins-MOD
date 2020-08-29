@@ -1,0 +1,64 @@
+# crime table												
+# 	order times (12000 = all week)	manpower	max manpower	suspicion	sentence	investigation	risk (public)	risk (private)	AI priority (Don't Mess!)	crime string	newspaper crime string	# type
+##################################################################################################################################												
+	12000	1	4	0	0	0	0	0	10	goto order	0	# gototype
+	12000	1	4	0	0	0	0	0	4	guard business	0	# guardbusiness
+	12000	1	2	0	0	0	0	0	5	own business	0	# ownbusiness
+	6000	1	1	0	0	0	0	0	2	kill	0	# killtype
+	0	1	1	0	0	0	0	0	10	stand	0	# standtype
+	0	1	1	0	0	0	0	0	10	adjust protection	0	# adjustprotection
+	12000	1	2	0	0	0	0	0	5	buy premesis	0	# buypremesis
+	166	1	10	0	0	0	0	0	0	collect protection	0	# collectprotection
+	166	1	4	0	0	0	0	0	9	donate	0	# donate
+	12000	1	2	0	0	0	0	0	5	set up business	0	# setupbusiness
+	1000	1	2	0	0	0	0	0	10	set up meeting	0	# setupmeeting
+	12000	1	1	0	0	0	0	0	10	rendevous	0	# rendevouswithspy
+	83	1	10	0	0	0	0	0	6	explore	0	# explore
+	12000	1	1	0	0	0	0	0	10	lie low	0	# lielow
+	12000	1	4	0	0	0	0	0	4	patrol	0	# patrol
+	166	1	10	0	0	0	0	0	1	recruit	0	# recruit
+	12000	1	1	0	0	0	0	0	10	return to base	0	# returntobase
+	500	1	4	20	2	8	0	0	9	bribe	bribery	# bribe
+	166	1	10	20	3	2	2	2	1	extort	extortion	# extort
+	333	1	10	20	1	2	2	2	8	intimidate	intimidation	# intimidate
+	6000	1	4	60	6	6	2	2	9	kidnap	kidnapping	# kidnap
+	500	1	4	40	2	8	4	4	1	raid	robbery	# raid
+	12000	1	1	0	0	0	0	0	10	spy	0	# spy
+	12000	1	4	100	10	8	8	4	9	ambush	murder	# ambush
+	6000	1	4	40	5	2	6	4	9	assault	assault	# assault
+	333	1	4	80	8	8	8	6	3	bomb	bombing	# bomb
+	6000	1	4	100	10	8	8	4	10	kill	murder	# kill
+	333	1	4	60	4	6	6	4	3	smash up	vandalism	# smashup
+	333	1	4	80	7	6	8	4	3	torch	arson	# torch
+	6000	1	1	0	0	0	0	0	10	tail	0	# tail
+	0	1	1	0	0	0	0	0	10	wait	0	# waitorder
+	6000	1	4	0	0	0	0	0	9	export	0	# export
+	0	1	1	0	0	0	0	0	10	escort	0	# escortprisoner
+	333	1	1	0	0	0	0	0	10	investigate	0	# investigate
+	333	1	1	0	0	0	0	0	10	remove body	0	# removebody
+	333	1	1	0	0	0	0	0	10	escort to court	0	# escorttocourt
+	12000	1	1	0	0	0	0	0	10	audit	0	# audit
+	12000	1	1	10	10	10	0	0	10	evade tax	tax evasion	# evadetax
+	12000	1	1	0	0	0	0	0	10	employ police	0	# employpolice
+	12000	1	1	0	0	0	0	0	10	go straight	0	# gostraight
+	12000	1	1	0	0	0	0	0	10	run for office	0	# runforoffice
+	12000	1	1	20	8	10	0	0	10	bribe officials	corruption	# bribeofficials
+	0	1	1	0	0	0	0	0	10	go back to crime	0	# gobacktocrime
+	0	1	1	0	0	0	0	0	10	drop out	0	# dropoutofrunning
+	0	1	1	20	0	0	0	0	10	antiques	0	# antiquesracket
+	0	1	1	20	4	5	0	0	10	card game	gambling	# cardgame
+	0	1	1	20	10	15	0	0	10	casino	gambling	# casino
+	0	1	1	20	15	15	0	0	10	counterfeit	producing counterfeit currency	# counterfeit
+	0	1	1	20	4	5	0	0	10	dice game	gambling	# dicegame
+	0	1	1	20	5	10	0	0	10	distillation	the illegal distallation of alcohol	# distillation
+	0	1	1	20	6	10	0	0	10	gambling den	gambling	# gamblingden
+	0	1	1	20	3	5	0	0	10	grifting	syndicated theft	# grifting
+	0	1	1	20	7	15	0	0	10	insider dealing	syndicated theft	# insiderdealing
+	0	1	1	20	2	10	0	0	10	loan shark	extorting money through illegal activities	# loanshark
+	0	1	1	20	4	5	0	0	10	numbers racket	gambling	# numbersracket
+	0	1	1	20	4	5	0	0	10	prostitution	prostitution	# prostitution
+	0	1	1	20	2	5	0	0	10	prize fights	gambling	# prizefights
+	0	1	1	20	5	10	0	0	10	speak easy	the selling and consumption of alcohol	# speakeasy
+	0	1	1	0	10	15	0	0	10	teamsters	extorting money through illegal activities	# teamsters
+	0	1	1	0	5	4	0	0	10	laundering	distributing illegal currency	
+	0	1	1	0	5	4	0	0	10	fencing	0	handling stolen goods

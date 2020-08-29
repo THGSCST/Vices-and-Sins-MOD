@@ -1,0 +1,13 @@
+We failed boss.
+Job completed boss.
+We ran out of time.
+We were outnumbered
+%s was killed.
+%s refused to pay.
+%s got hurt.
+%s was arrested.
+You didn't want us to do this.
+They don't want anyone yet.
+They didn't make it.
+%s laughed at you boss.
+I lost some hoods.

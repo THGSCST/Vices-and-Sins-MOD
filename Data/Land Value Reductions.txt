@@ -1,0 +1,8 @@
+# LAND VALUE REDUCTIONS - Vices and Sins Mod	
+#
+# The Land Value will be reduced if following crime is committed on the block:
+32	# Arson
+64	# Bomb
+32	# Kill
+16	# Kidnap
+16	# Raid

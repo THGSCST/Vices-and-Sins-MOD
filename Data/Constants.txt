@@ -1,0 +1,181 @@
+# CONSTANTS.TXT
+# constants for use in game
+
+2500	# number of civilians in city
+12	# number of judges
+12	# number of attourneys
+5	# initial number of hoods in a gang
+1	# starting number of explosives
+1	# number of businesses to start with in a gang
+1	# number of vehicles a gang starts with
+6000	# starting money for a gang
+
+300	# number of police in city
+75	# number of FBI in city
+
+############################################################
+######## FEAR CONSTANTS ####################################
+100	# OWNER_FEAR_RANGE;
+-20	# OWNER_FEAR_BASE;
+100	# CIVILIAN_FEAR_RANGE;
+-20	# CIVILIAN_FEAR_BASE;
+128	# ILLEGALPERSON_FEAR_RANGE;
+0	# ILLEGALPERSON_FEAR_BASE;
+128	# HOOD_FEAR_RANGE;
+0	# HOOD_FEAR_BASE;
+128	# POLICE_FEAR_RANGE;
+0	# POLICE_FEAR_BASE;
+128	# POLICE_CHIEF_FEAR_RANGE;
+0	# POLICE_CHIEF_FEAR_BASE;
+128	# FBI_FEAR_RANGE;
+0	# FBI_FEAR_BASE;
+128	# FBI_HEAD_FEAR_RANGE;
+0	# FBI_HEAD_FEAR_BASE;
+128	# ATTOURNEY_FEAR_RANGE;
+0	# ATTOURNEY_FEAR_BASE;
+128	# JUDGE_FEAR_RANGE;
+0	# JUDGE_FEAR_BASE;
+128	# MAYOR_FEAR_RANGE;
+0	# MAYOR_FEAR_BASE;
+128	# REPORTER_FEAR_RANGE;
+0	# REPORTER_FEAR_BASE;
+128	# RELIGIOUS_LEADER_FEAR_RANGE;
+0	# RELIGIOUS_LEADER_FEAR_BASE;
+
+######## HOSTILITY CONSTANTS #######################
+130	# OWNER_HOSTILITY_RANGE;
+20	# OWNER_HOSTILITY_BASE;
+130	# CIVILIAN_HOSTILITY_RANGE;
+20	# CIVILIAN_HOSTILITY_BASE;
+256	# ILLEGALPERSON_HOSTILITY_RANGE;
+0	# ILLEGALPERSON_HOSTILITY_BASE;
+256	# HOOD_HOSTILITY_RANGE;
+0	# HOOD_HOSTILITY_BASE;
+256	# POLICE_HOSTILITY_RANGE;
+0	# POLICE_HOSTILITY_BASE;
+128	# POLICE_CHIEF_HOSTILITY_RANGE;
+128	# POLICE_CHIEF_HOSTILITY_BASE;
+256	# FBI_HOSTILITY_RANGE;
+0	# FBI_HOSTILITY_BASE;
+128	# FBI_HEAD_HOSTILITY_RANGE;
+128	# FBI_HEAD_HOSTILITY_BASE;
+128	# ATTOURNEY_HOSTILITY_RANGE;
+128	# ATTOURNEY_HOSTILITY_BASE;
+128	# JUDGE_HOSTILITY_RANGE;
+128	# JUDGE_HOSTILITY_BASE;
+128	# MAYOR_HOSTILITY_RANGE;
+128	# MAYOR_HOSTILITY_BASE;
+128	# REPORTER_HOSTILITY_RANGE;
+128	# REPORTER_HOSTILITY_BASE;
+128	# RELIGIOUS_LEADER_HOSTILITY_RANGE;
+128	# RELIGIOUS_LEADER_HOSTILITY_BASE;
+
+######## SQUEAL CONSTANTS #######################
+0	# OWNER_SQUEAL_RANGE;
+125	# OWNER_SQUEAL_BASE;
+0	# CIVILIAN_SQUEAL_RANGE;
+100	# CIVILIAN_SQUEAL_BASE;
+0	# ILLEGALPERSON_SQUEAL_RANGE;
+100 	# ILLEGALPERSON_SQUEAL_BASE;
+0	# HOOD_SQUEAL_RANGE;
+100	# HOOD_SQUEAL_BASE;
+0	# POLICE_SQUEAL_RANGE;
+200	# POLICE_SQUEAL_BASE;
+0	# POLICE_CHIEF_SQUEAL_RANGE;
+250	# POLICE_CHIEF_SQUEAL_BASE;
+0	# FBI_SQUEAL_RANGE;
+250	# FBI_SQUEAL_BASE;
+0	# FBI_HEAD_SQUEAL_RANGE;
+250	# FBI_HEAD_SQUEAL_BASE;
+0	# ATTOURNEY_SQUEAL_RANGE;
+200	# ATTOURNEY_SQUEAL_BASE;
+0	# JUDGE_SQUEAL_RANGE;
+200	# JUDGE_SQUEAL_BASE;
+0	# MAYOR_SQUEAL_RANGE;
+250	# MAYOR_SQUEAL_BASE;
+0	# REPORTER_SQUEAL_RANGE;
+200	# REPORTER_SQUEAL_BASE;
+0	# RELIGIOUS_LEADER_SQUEAL_RANGE;
+200	# RELIGIOUS_LEADER_SQUEAL_BASE;
+
+##########################################################
+########### PAY DEMAND ###################################
+# N.Y.I #
+
+##########################################################
+########### LOYALTY ######################################
+192	# loyalty range
+64	# loyalty base
+
+##########################################################
+########### BRIBE PRICES #################################
+500	# OWNER_CASE_BRIBE_BASE;
+500	# OWNER_CASE_BRIBE_MULTIPLIER;
+200	# OWNER_BRIBE_BASE;
+300	# OWNER_BRIBE_MULTIPLIER;
+500	# SNITCH_BRIBE_BASE;
+4	# SNITCH_BRIBE_MULTIPLIER;
+5000	# ATTOURNEY_CASE_BRIBE_BASE;
+3000	# ATTOURNEY_CASE_BRIBE_MULTIPLIER;
+2000	# ATTOURNEY_BRIBE_BASE;
+2000	# ATTOURNEY_BRIBE_MULTIPLIER;
+10000	# JUDGE_CASE_BRIBE_BASE;
+20000	# JUDGE_CASE_BRIBE_MULTIPLIER;
+4000	# JUDGE_BRIBE_BASE;
+8000	# JUDGE_BRIBE_MULTIPLIER;
+10000	# MAYOR_BRIBE_BASE;
+10000	# MAYOR_BRIBE_MULTIPLIER;
+1000	# PEOPLE_CASE_BRIBE_BASE;
+1000	# PEOPLE_CASE_BRIBE_MULTIPLIER;
+300	# PEOPLE_BRIBE_BASE;
+300	# PEOPLE_BRIBE_MULTIPLIER;
+2000	# POLICE_CASE_BRIBE_BASE;
+3000	# POLICE_CASE_BRIBE_MULTIPLIER;
+500	# POLICE_BRIBE_BASE;
+500	# POLICE_BRIBE_MULTIPLIER;
+2000	# RELIGIOUS_LEADER_BRIBE_BASE;
+2000	# RELIGIOUS_LEADER_BRIBE_MULTIPLIER;
+2000	# REPORTER_BRIBE_BASE;
+2000	# REPORTER_BRIBE_MULTIPLIER;
+10000	# POLICE_CHIEF_BRIBE_BASE
+10000	# POLICE_CHIEF_BRIBE_MULTIPLIER
+
+#######################################################
+########### ELECTION STUFF ############################
+100	# min blocks to enter election
+4	# cost divisor (not 0!)
+
+#######################################################
+########### COURT CASE STUFF ##########################
+0	# investigator squeal test addition
+100	# loyalty addition
+1	# case against multiplier
+1	# case for multiplier
+
+#######################################################
+########### GANG SPLITTING STUFF ######################
+192	# number to compare loyalty to
+64	# number to compare hostility - fear to
+
+#######################################################
+########### ORDER TIMING CONSTANTS ####################
+140	# location based
+1500	# block based order
+96	# block based but only visit on location
+
+#######################################################
+########### FBI SUSPICION OF INCOME CONSTANTS #########
+5000	# Base illegal income before any suspicion happens
+16	# amount to divide accountant skill by
+2	# amount to multiply suspicion increase by : ((Illegal Income / Legal Income) - Accountant Skill Factor) * VALUE
+
+#######################################################
+########### Police allocation variables ###############
+1320	# mayor allocation of police for patrols gets divided by this
+
+#######################################################
+########### Recruit test variables ####################
+40	# Addition to intelligence when testing against highest skill
+36	# addition to our gang size when testing against average skill
+45	# addition to our gang size when testing against highest skill
+

@@ -1,0 +1,60 @@
+#################################
+# SCENARIO.TXT			#
+#################################
+#
+# Number of Scenarios
+#
+10
+#
+#
+#
+FAT CHANCE
+[FAT CHANCE.
+~They carved up the city between them like you were nothing but a nickel and dime card shark. If you want your share of this place, you will have to go out there and take it.]
+Scene1.dat
+#
+GOLD RUSH
+[GOLD RUSH.
+~So far the racketeers in this city have been keeping out of each other’s way but it isn’t going to last much longer. Any way you look at it, there just isn’t enough to go around.]
+Scene2.dat
+#
+INDUSTRIAL
+[INDUSTRIAL.
+~This city is the manufacturing power house of the state. Everything that is produced is either made here or passes through here, and you want a piece of it all.]
+Scene3.dat
+#
+OPEN SEASON
+[OPEN SEASON.
+~This city doesn’t have as much to offer as some, but what there is can be found close at hand and easy to take.]
+Scene4.dat
+#
+RICOCHET
+[RICOCHET.
+~Where business is concerned, the right friend can make all the difference. Until, of course, it’s better business to go it alone.]
+Scene5.dat
+#
+SOUTH OF THE RIVER
+[SOUTH OF THE RIVER.
+~While the city was being divided between three gangs, no one was looking South of the river.]
+Scene6.dat
+#
+SUBURBAN SLAUGHTER
+[SUBURBAN SLAUGHTER.
+~There’s enough business in the suburbs to keep four reasonable gangsters occupied, but you have to survive long enough to take advantage of it.]
+Scene7.dat
+#
+SURROUNDED
+[SURROUNDED.
+~Besieged on all sides by better established gangs, you and your elite mobsters stand ready to take them all on. Death or glory awaits.]
+Scene8.dat
+#
+TREASURE ISLAND
+[TREASURE ISLAND.
+~Even though you are surrounded by easy money, it’s difficult not to notice that even easier money and power lie not too far away.]
+Scene9.dat
+#
+WHERE ANGELS FEAR TO TREAD
+[WHERE ANGELS FEAR TO TREAD.
+~Rod "The Bat" Smith and his mob have this city sewn up. No one would dare challenge him. No one would even last a week. Who would be that dumb?]
+Scene10.dat
+#

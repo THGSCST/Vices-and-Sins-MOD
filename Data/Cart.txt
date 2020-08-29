@@ -1,0 +1,465 @@
+# Number of attack types
+16
+# Results IDs and descriptions
+#
+# ID		Desc
+# 0			Head pulling or hit back
+# 1			Head dodge or hit forward
+# 2			Ducking down
+# 3			Falling to knees
+# 4			Falling forward
+# 5			Spining fall forward
+# 6			Twitch while down
+# 7			Do nothing
+# 8			Head forward on knees
+# 9			Fall forward from knees
+# 10			Get up from knees
+# 11			Get up from fall to knees
+# 12			Get up from fall
+#
+# Attack Type - Downward head attack with club
+#
+0							# Attack Type ID
+# Non-hit results from behind
+3							# Number of results
+# Results - ID, Trigger Frame, Wait Time, Miss turns, Damage
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head dodge forward
+2	0	0	0	0			# Ducking
+# Hit results from behind
+3							# Number of results
+#
+1	3	0	1	1			# Head hit forward
+3	3	0	1	1			# Fall to knees
+4	3	0	1	1			# Fall forward
+# Non-hot results from front
+3
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head pulled back
+2	0	0	0	0			# Ducking
+# Hit results from front
+3
+#
+0	3	0	1	1			# Head hit back
+3	3	0	1	1			# Fall to knees
+5	3	0	1	1			# Spinning fall
+#
+#
+# Attack Type - Fist attack straight in the face
+#
+1							# Attack Type ID
+# Non-hit results from behind
+3							# Number of results
+# Results - ID, Trigger Frame, Wait Time, Miss turns, Damage
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head dodge forward
+2	0	0	0	0			# Ducking
+# Hit results from behind
+3							# Number of results
+#
+1	7	0	1	1			# Head hit forward
+3	7	0	1	1			# Fall to knees
+4	7	0	1	1			# Fall forward
+# Non-hot results from front
+3
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head pulled back
+2	0	0	0	0			# Ducking
+# Hit results from front
+3
+#
+0	7	0	1	1			# Head hit back
+3	7	0	1	1			# Fall to knees
+5	7	0	1	1			# Spinning fall
+#
+#
+# Attack Type - Side head attack with fist
+#
+2							# Attack Type ID
+# Non-hot from back
+3							# Number of results
+#
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head dodge forward
+2	0	0	0	0			# Duck
+# Hit from back
+3							# Number of results
+#
+1	4	0	1	1			# Head hit forward
+3	4	0	1	1			# Fall to knees
+4	4	0	1	1			# Fall forward
+# Non-hit from front
+3							# Number of results
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head dodge back
+2	0	0	0	0			# Duck
+# Hit from front
+3							# Number of results
+#
+0	4	0	1	1			# Head hit back
+3	4	0	1	1			# Fall to knees
+5	4	0	1	1			# Spinning fall
+#
+#
+# Attack Type - Side head attack with club
+#
+3							# Attack Type ID
+# Non-hot from back
+3							# Number of results
+#
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head dodge forward
+2	0	0	0	0			# Duck
+# Hit from back
+3							# Number of results
+#
+1	3	0	1	2			# Head hit forward
+3	3	0	1	2			# Fall to knees
+4	3	0	1	2			# Fall forward
+# Non-hit from front
+3							# Number of results
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head dodge back
+2	0	0	0	0			# Duck
+# Hit from front
+3							# Number of results
+#
+0	3	0	1	2			# Head hit back
+3	3	0	1	2			# Fall to knees
+5	3	0	1	2			# Spinning fall
+#
+#
+# Attack Type - Attack to head with knife
+#
+4							# Attack Type ID
+# Non-hit behind
+2							# Number of results
+#
+1	0	0	0	0			# Head dodge forward
+2	0	0	0	0			# Ducking
+# Hit behind
+4							# Number of results
+#
+1	4	0	1	2			# Head hit forward
+3	4	0	1	3			# Fall to knees
+5	4	0	1	4			# Fall forward
+5	4	0	1	5			# Throat slashed (instant death)
+# Non-hit front
+2							# Number of results
+#
+0	0	0	0	0			# Head dodge back
+2	0	0	0	0			# Ducking
+# Hit front
+3							# Number of results
+#
+0	4	0	1	1			# Head dodge back
+5	4	0	1	1			# Spinning Fall
+3	4	0	1	5			# Throat slashed (instant death)
+#
+#
+# Attack Type - Attack to stomach with fist
+#
+5							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head back (stomach forward)
+2	0	0	0	0			# Duck
+# Hit behind
+3
+#
+0	4	0	1	1			# Head back (stomach forward)
+3	4	0	1	1			# Fall to knees
+4	4	0	1	1			# Fall forward
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head forward (stomach in)
+2	0	0	0	0			# Duck
+# Hit front
+4
+#
+1	4	0	1	1			# Head forward (stomach in)
+3	4	0	1	1			# Fall to knees
+4	4	0	1	1			# Fall forward
+5	4	0	1	1			# Spinning fall
+#
+#
+# Attack Type - Attack to stomach with club
+#
+6							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head back (stomach forward)
+2	0	0	0	0			# Duck
+# Hit behind
+3
+#
+0	3	0	1	2			# Head back (stomach forward)
+3	3	0	1	2			# Fall to knees
+4	3	0	1	2			# Fall forward
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head forward (stomach in)
+2	0	0	0	0			# Duck
+# Hit front
+4
+#
+1	3	0	1	2			# Head forward (stomach in)
+3	3	0	1	2			# Fall to knees
+4	3	0	1	2			# Fall forward
+5	3	0	1	2			# Spinning fall
+#
+#
+# Attack Type - Attack to stomach with knife
+#
+7							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+0	0	0	0	0			# Head back (stomach forward)
+2	0	0	0	0			# Duck
+# Hit behind
+3
+#
+0	4	0	1	2			# Head back (stomach forward)
+3	4	0	1	3			# Fall to knees
+4	4	0	1	4			# Fall forward
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+1	0	0	0	0			# Head forward (stomach in)
+2	0	0	0	0			# Duck
+# Hit front
+4
+#
+1	4	0	1	2			# Head forward (stomach in)
+3	4	0	1	3			# Fall to knees
+4	4	0	1	3			# Fall forward
+5	4	0	1	4			# Spinning fall
+#
+#
+# Attack Type - Attack while on knees by club hitting down
+#
+8							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit behind
+2
+#
+8	4	0	1	2			# Hit head forward
+9	4	0	1	2			# Fall forward from knees
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit front
+2
+#
+8	4	0	1	2			# Move head forward
+9	4	0	1	2			# Fall forward from knees
+#
+#
+# Attack Type - Attack while on knees by fist hitting head (stomach attacks)
+#
+9							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit behind
+2
+#
+8	4	0	1	1			# Hit head forward
+9	4	0	1	1			# Fall forward from knees
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit front
+2
+#
+8	4	0	1	1			# Move head forward
+9	4	0	1	1			# Fall forward from knees
+#
+#
+# Attack Type - Attack while on knees by club hitting head (stomach attacks)
+#
+10							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit behind
+2
+#
+8	3	0	1	2			# Hit head forward
+9	3	0	1	2			# Fall forward from knees
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit front
+2
+#
+8	3	0	1	2			# Move head forward
+9	3	0	1	2			# Fall forward from knees
+#
+#
+# Attack Type - Attack while on knees by knife hitting head (stomach attacks)
+#
+11							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit behind
+2
+#
+8	4	0	1	3			# Hit head forward
+9	4	0	1	5			# Fall forward from knees
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit front
+2
+#
+8	4	0	1	3			# Move head forward
+9	4	0	1	5			# Fall forward from knees
+#
+#
+# Attack Type - Attack while on knees by coup de grace to head (standard c.d.g.)
+#
+12							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit behind
+1
+#
+9	8	0	1	5			# Fall forward from knees (instant death)
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+8	0	0	0	0			# Dodge head forward
+10	0	0	0	0			# Get up from knees
+# Hit front
+1
+#
+9	8	0	1	5			# Fall forward from knees (instant death)
+#
+#
+# Attack Type - Attack while down with club
+#
+13							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+11	0	0	0	0			# Get to knees
+12	0	0	0	0			# Get up
+# Hit behind
+2
+#
+7	4	0	1	2			# Do nothing
+6	4	0	1	2			# Cause person to twitch
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+11	0	0	0	0			# Get to knees
+12	0	0	0	0			# Get up
+# Hit front
+2
+#
+7	4	0	1	2			# Do nothing
+6	4	0	1	2			# Cause person to twitch
+#
+#
+# Attack Type - Attack while down by kicking
+#
+14							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+11	0	0	0	0			# Get to knees
+12	0	0	0	0			# Get up
+# Hit behind
+2
+#
+7	4	0	1	1			# Do nothing
+6	4	0	1	1			# Cause person to twitch
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+11	0	0	0	0			# Get to knees
+12	0	0	0	0			# Get up
+# Hit front
+2
+#
+7	4	0	1	1			# Do nothing
+6	4	0	1	1			# Cause person to twitch
+#
+#
+# Attack Type - Attack while down with coup de grace
+#
+15							# Attack Type ID
+# Non-hit behind
+3
+#
+7	0	0	0	0			# Do nothing
+11	0	0	0	0			# Get to knees
+12	0	0	0	0			# Get up
+# Hit behind
+2
+#
+7	8	0	1	5			# Do nothing
+6	8	0	1	5			# Cause person to twitch
+# Non-hit front
+3
+#
+7	0	0	0	0			# Do nothing
+11	0	0	0	0			# Get to knees
+12	0	0	0	0			# Get up
+# Hit front
+2
+#
+7	8	0	1	5			# Do nothing
+6	8	0	1	5			# Cause person to twitch

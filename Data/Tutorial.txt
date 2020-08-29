@@ -1,0 +1,34 @@
+##########################
+# Tutorial.txt
+##########################
+#
+# Please do not translate the file names (e.g. Tutorial1.tut)
+#
+# Number of Tutorials
+4
+#
+#
+#
+#
+#
+#
+Tutorial 1: The Gang Organizer.
+[Tutorial 1: The Gang Organizer.
+~This tutorial introduces you to the Gang Organizer and shows you how to give the first orders to get your empire started.]
+Tutorial1.dat
+#
+Tutorial 2: The First Working Week.
+[Tutorial 2: The First Working Week.
+~This tutorial covers the basic parts of the Working Week and looks at what can happen during the week.]
+Tutorial2.dat
+#
+Tutorial 3: Expanding Further.
+[Tutorial 3: Expanding Further.
+~This tutorial introduces more order types and shows how to deal with both unhappy gang members and troublesome business owners.]
+Tutorial3.dat
+#
+Tutorial 4: Action in the Working Week.
+[Tutorial 4: Action in the Working Week.
+~This tutorial shows you how to keep track of people's movement, how to use the message box and how to give Street Orders.]
+Tutorial4.dat
+#
