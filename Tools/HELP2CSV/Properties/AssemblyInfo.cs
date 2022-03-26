@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associadas a um assembly.
-[assembly: AssemblyTitle("XTX2TXT")]
+[assembly: AssemblyTitle("HELP2CSV")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("XTX2TXT")]
+[assembly: AssemblyProduct("HELP2CSV")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("94e31836-5cb2-4347-8da1-37b2588a7ecd")]
+[assembly: Guid("2ee2503b-3456-44dd-982d-383d460b887d")]
 
 // As informações da versão de um assembly consistem nos quatro valores a seguir:
 //

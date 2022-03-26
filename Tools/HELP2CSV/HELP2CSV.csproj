@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{94E31836-5CB2-4347-8DA1-37B2588A7ECD}</ProjectGuid>
+    <ProjectGuid>{2EE2503B-3456-44DD-982D-383D460B887D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>XTX2TXT</RootNamespace>
-    <AssemblyName>XTX2TXT</AssemblyName>
+    <RootNamespace>HELP2CSV</RootNamespace>
+    <AssemblyName>HELP2CSV</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

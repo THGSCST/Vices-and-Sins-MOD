@@ -1,0 +1,75 @@
+﻿<Window x:Class="SPRTYL2PNG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPRTYL2PNG"
+        Title="SPRTYL2PNG - VSModTools for 1998 Gangsters: Organized Crime" Height="450" Width="800">
+
+    <DockPanel LastChildFill="True">
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar Band="1" >
+                <Button Content="Open" Click="Open" Name="openButton">
+                </Button>
+                <Button Content="Save As..." IsEnabled="False" Name="saveAsButton" Click="SaveAs">
+                </Button>
+            </ToolBar>
+            <ToolBar Band="2" Name="previewOptionsMenu" IsEnabled="False">
+                <Label>Palette:</Label>
+                <ComboBox Name="palettePicker" SelectionChanged="previewOptionsChanged">
+                    <ComboBoxItem IsSelected="True">Default</ComboBoxItem>
+                    <ComboBoxItem>MainMenu</ComboBoxItem>
+                </ComboBox>
+                <Separator />
+                <Label>Transparency:</Label>
+                <ComboBox Name="transparencyColorPicker" SelectionChanged="previewOptionsChanged">
+                    <ComboBoxItem IsSelected="True">
+                        <StackPanel Orientation="Horizontal" Height="Auto">
+                            <Rectangle Fill="Magenta" Width="16" Height="12" Margin="5" />
+                            <Label Content="Magenta"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Fill="Black" Width="16" Height="12" Margin="5" />
+                            <Label Content="Black"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Fill="White" Width="16" Height="12" Margin="5" />
+                            <Label Content="White"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                </ComboBox>
+                <Separator />
+                <Label Content="Zoom:"/>
+                <ComboBox Name="zoomCombo" SelectionChanged="previewOptionsChanged">
+                    <ComboBoxItem IsSelected="True">1x</ComboBoxItem>
+                    <ComboBoxItem>2x</ComboBoxItem>
+                    <ComboBoxItem>3x</ComboBoxItem>
+                    <ComboBoxItem>4x</ComboBoxItem>
+                    <ComboBoxItem>5x</ComboBoxItem>
+                </ComboBox>
+                <Separator />
+                <Label Content="Margin:"/>
+                <ComboBox Name="marginsStroke" SelectionChanged="previewOptionsChanged">
+                    <ComboBoxItem>0</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">4</ComboBoxItem>
+                    <ComboBoxItem>8</ComboBoxItem>
+                </ComboBox>
+            </ToolBar>
+        </ToolBarTray>
+        <StatusBar Name="bottomBar"  DockPanel.Dock="Bottom" IsEnabled="False">
+            <Label>Selected Frame:</Label>
+            <Image Stretch="None"  Name="selectedFrame" />
+            <Label Name="selectedFrameSize" ContentStringFormat="Size: {0}px"/>
+            <Label Name="selectedFrameIndex" ContentStringFormat="Index: {0}" />
+            <Button Click="ExportPNGFrame">Export Frame as PNG</Button>
+            <Button Click="ImportPNGFrame">Replace Frame with PNG</Button>
+        </StatusBar>
+        <ScrollViewer VerticalScrollBarVisibility="Visible">
+            <WrapPanel Name="previewPanel"/>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

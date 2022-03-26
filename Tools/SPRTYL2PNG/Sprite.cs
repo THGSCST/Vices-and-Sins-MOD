@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
 
 namespace SPRTYL2PNG
 {
     public class Sprite
     {
-        public int spriteQuantity;
-        public Entry[] entries;
-        public byte[] rawDataBitmaps;
-        public struct Entry
+        private FrameInformation[] frames;
+        private byte[] rawData;
+        private struct FrameInformation
         {
             public ushort bmWidth;
             public ushort bmHeight;
@@ -24,7 +22,9 @@ namespace SPRTYL2PNG
             public int unknow2;
             public int datatOffset;
         }
-        
+
+        public int Count { get => frames.Length; }
+        public byte[] RawData { get => rawData; }
         public Sprite(Stream stream, bool header)
         {
             if (stream == null)
@@ -32,21 +32,23 @@ namespace SPRTYL2PNG
 
             BinaryReader bReader = new BinaryReader(stream);
 
+            int spriteQuantity;
+
             if (header) //Read the sprite header
             {
                 spriteQuantity = bReader.ReadInt32();
                 if (spriteQuantity < 1)
                     throw new InvalidDataException("Sprite is empty, invalid or has no header");
 
-                entries = new Entry[spriteQuantity];
+                frames = new FrameInformation[spriteQuantity];
 
                 for (int i = 0; i < spriteQuantity; i++)
                 {
-                    entries[i].bmWidth = bReader.ReadUInt16();
-                    entries[i].bmHeight = bReader.ReadUInt16();
-                    entries[i].unknow = bReader.ReadInt32();
-                    entries[i].unknow2 = bReader.ReadInt32();
-                    entries[i].datatOffset = bReader.ReadInt32();
+                    frames[i].bmWidth = bReader.ReadUInt16();
+                    frames[i].bmHeight = bReader.ReadUInt16();
+                    frames[i].unknow = bReader.ReadInt32();
+                    frames[i].unknow2 = bReader.ReadInt32();
+                    frames[i].datatOffset = bReader.ReadInt32();
                 }
             }
             else //Its a tileset, no header. Try to create header.
@@ -57,78 +59,87 @@ namespace SPRTYL2PNG
                 spriteQuantity = (int)bReader.BaseStream.Length / (size * size);
                 if (bReader.BaseStream.Length == 3189884) spriteQuantity = (int)bReader.BaseStream.Length / (size * size + 4) - 1;
 
-                entries = new Entry[spriteQuantity];
+                frames = new FrameInformation[spriteQuantity];
 
                 for (int i = 0; i < spriteQuantity; i++)
                 {
-                    entries[i].bmWidth = (ushort)size;
-                    entries[i].bmHeight = (ushort)size;
-                    entries[i].datatOffset = i * size * size;
+                    frames[i].bmWidth = (ushort)size;
+                    frames[i].bmHeight = (ushort)size;
+                    frames[i].datatOffset = i * size * size;
                     if (bReader.BaseStream.Length == 3189884)
                     {
                         bReader.BaseStream.Position += size * size;
-                        entries[i].unknow = bReader.ReadInt32();
-                        entries[i].datatOffset = (int)bReader.BaseStream.Position;
+                        frames[i].unknow = bReader.ReadInt32();
+                        frames[i].datatOffset = (int)bReader.BaseStream.Position;
                     }
                     if (bReader.BaseStream.Length == 8196 || bReader.BaseStream.Length == 5204)
-                        entries[i].datatOffset += 4;
+                        frames[i].datatOffset += 4;
                 }
             }
 
             int totalBytes = 0;
-            foreach (var entry in entries)
-                totalBytes += (int) entry.bmHeight * entry.bmWidth;
+            foreach (var entry in frames)
+                totalBytes += (int)entry.bmHeight * entry.bmWidth;
 
             bReader.BaseStream.Position = 0;
-            rawDataBitmaps = bReader.ReadBytes((int)bReader.BaseStream.Length);
+            rawData = bReader.ReadBytes((int)bReader.BaseStream.Length);
         }
 
-        public Bitmap ToBitmap(int index)
+        public BitmapSource ToBitmap(int index, List<Color> palette, Color transparency)
         {
-            int total = entries[index].bmHeight * entries[index].bmWidth;
-            int pos = entries[index].datatOffset;
-            var segment = new ArraySegment<byte>(rawDataBitmaps, pos , total);
-            return Make8bppBitmap(segment.ToArray(), entries[index].bmWidth, entries[index].bmHeight, Pallete.Default);  
+            int total = frames[index].bmHeight * frames[index].bmWidth;
+            int pos = frames[index].datatOffset;
+            var segment = new ArraySegment<byte>(rawData, pos, total);
+            return Make8bppBitmap(segment.ToArray(), frames[index].bmWidth, frames[index].bmHeight, palette, transparency);
         }
 
-        public void Replace(int index, Bitmap bitmap)
+        public void Replace(int index, BitmapSource bitmap, IList<Color> palette)
         {
-            // Lock the bitmap's bits.  
-            Rectangle rect = new Rectangle(0, 0, bitmap.Width, bitmap.Height);
-            BitmapData bmpData = bitmap.LockBits(rect, ImageLockMode.ReadWrite, PixelFormat.Format8bppIndexed);
+            if (bitmap.Palette == null) throw new NotImplementedException("No palette! PNG not indexed");
 
-            // Remove stripe padding and copy the RGB values
-            for (int y = 0; y < bmpData.Height; ++y)
+            //Check if palette match
+            bool match = true;
+            if (bitmap.Palette.Colors.Count == palette.Count)
             {
-                IntPtr mem = (IntPtr)((long)bmpData.Scan0 + y * bmpData.Stride);
-                int start = entries[index].datatOffset + y * bmpData.Width;
-                Marshal.Copy(mem, rawDataBitmaps, start, bmpData.Width);
+                for (int i = 1; i < palette.Count; i++) //Skip firt color
+                    if (bitmap.Palette.Colors[i] != palette[i])
+                    {
+                        match = false;
+                        break;
+                    }
             }
-            // Unlock the bits.
-            bitmap.UnlockBits(bmpData);
+            else match = false;
+
+            if (!match)
+                throw new InvalidDataException("Color palette does not match");
+
+            int total = frames[index].bmHeight * frames[index].bmWidth;
+            int stride = (int)bitmap.PixelWidth * (bitmap.Format.BitsPerPixel / 8);
+            if (total != stride)
+                throw new ArgumentException("Size mismatch");
+
+            int pos = frames[index].datatOffset;
+            byte[] pixels = new byte[bitmap.PixelHeight * stride];
+            bitmap.CopyPixels(pixels, stride, 0);
+
+            for (int i = 0; i < total; i++)
+                rawData[pos + i] = pixels[i];
         }
 
-        public void Save(string filename)
+        private static BitmapSource Make8bppBitmap(Byte[] rawImage, Int32 width, Int32 height, List<Color> palette, Color transparency)
         {
+            PixelFormat pf = PixelFormats.Indexed8;
+            int rawStride = (width * pf.BitsPerPixel + 7) / 8;
 
-        }
-        public static Bitmap Make8bppBitmap(Byte[] sourceData, Int32 width, Int32 height, Color[] palette)
-        {
-            Bitmap newImage = new Bitmap(width, height, PixelFormat.Format8bppIndexed);
-            BitmapData targetData = newImage.LockBits(new Rectangle(0, 0, width, height), ImageLockMode.WriteOnly, newImage.PixelFormat);
-            Int32 newDataWidth = ((Image.GetPixelFormatSize(PixelFormat.Format8bppIndexed) * width) + 7) / 8;
-            Int32 targetStride = targetData.Stride;
-            Int64 scan0 = targetData.Scan0.ToInt64();
-            for (Int32 y = 0; y < height; y++)
-                Marshal.Copy(sourceData, y * width, new IntPtr(scan0 + y * targetStride), newDataWidth);
-            newImage.UnlockBits(targetData);
+            if(rawImage.Length != rawStride * height)
+                throw new ArgumentException("Size mismatch");
 
-            ColorPalette pal = newImage.Palette;
-            for (Int32 i = 0; i < pal.Entries.Length; i++)
-                pal.Entries[i] = palette[i];
-            newImage.Palette = pal;
-            
-            return newImage;
+            List<Color> modPalette = new List<Color>(palette);
+            var pal = new BitmapPalette(modPalette);
+            modPalette[0] = transparency;
+
+
+            return BitmapSource.Create(width, height, 96, 96, pf, new BitmapPalette(modPalette), rawImage, rawStride);
         }
 
     }
