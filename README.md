@@ -15,6 +15,11 @@ The first and only 1998 Gangsters Organized Crime MOD
 * __XTX2TXT__ - Converter for XTX files.
 
 ## How to install?
-1. First you must have an original game, which can be obtained at GOG.com.
+1. First you MUST HAVE an original game, which can be obtained at GOG.com.
 2. Copy all the contents to install folder.
-3. If you have a non-GOG version, do not copy the `gangster.exe` executable.
+3. If you have a non-GOG version, do not copy the `gangster.exe` or `gangster-cheats.exe` executable.
+
+## Cheats executable `gangster-cheats.exe`
+Created to facilitate debug or testing, it has the following cheats:
+* `Shift + $` Your balance becomes one million dollars.
+* `Shift + #` All gangs get 1000 dollars, including you.
