@@ -55,7 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Sprite.cs" />
+    <Compile Include="Graphics.cs" />
+    <Compile Include="SpriteInformation.cs" />
+    <Compile Include="SpriteSheet.cs" />
+    <Compile Include="TileSet.cs" />
+    <Compile Include="TileSetGroupInformation.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

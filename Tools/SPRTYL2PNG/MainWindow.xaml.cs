@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Path = System.IO.Path;
 
 namespace SPRTYL2PNG
 {
@@ -14,7 +15,7 @@ namespace SPRTYL2PNG
     public partial class MainWindow : Window
     {
         string lastOpenedFile;
-        Sprite loadedSprite;
+        Graphics loadedGraphics;
         Color[] transparencyColor = new Color[]{ Colors.Magenta, Colors.Black, Colors.White };
 
         public MainWindow()
@@ -25,12 +26,13 @@ namespace SPRTYL2PNG
         private void UpdatePreviewPanel()
         {
             previewPanel.Children.Clear();
+            previewTilePanel.Children.Clear();
 
             if (zoomCombo.SelectedIndex > 0)
                 RenderOptions.SetBitmapScalingMode(this, BitmapScalingMode.NearestNeighbor);
             else RenderOptions.SetBitmapScalingMode(this, BitmapScalingMode.Fant);
 
-            var spriteImage = new Image[loadedSprite.Count];
+            var spriteImage = new Image[loadedGraphics.Quantity];
             for (int i = 0; i < spriteImage.Length; i++)
             {
                 spriteImage[i] = new Image();
@@ -41,17 +43,48 @@ namespace SPRTYL2PNG
                 spriteImage[i].Tag = i;
                 spriteImage[i].MouseDown += (sender, args) =>
                 {
-                    selectedFrame.Source = ((Image)sender).Source;
-                    selectedFrameIndex.Content = ((Image)sender).Tag;
-                    selectedFrameSize.Content = selectedFrame.Source.Width.ToString() + ";" + selectedFrame.Source.Height.ToString();
+                    selectedTile.Source = ((Image)sender).Source;
+                    selectedSpriteIndex.Content = ((Image)sender).Tag;
+                    selectedSpriteSize.Content = selectedTile.Source.Width.ToString() + ", " + selectedTile.Source.Height.ToString();
+                    selectedSpriteUnknow.Content = loadedGraphics.GetUnknowByIndex((int)((Image)sender).Tag);
                     bottomBar.IsEnabled = true;
+                    replaceButton.IsEnabled = true;
                 };
                 spriteImage[i].SnapsToDevicePixels = true;
                 spriteImage[i].LayoutTransform = new ScaleTransform(zoomCombo.SelectedIndex + 1, zoomCombo.SelectedIndex + 1);
-                spriteImage[i].Source = loadedSprite.ToBitmap(i, GamePalettes.ByIndex(palettePicker.SelectedIndex), transparencyColor[transparencyColorPicker.SelectedIndex]);
+                spriteImage[i].Source = loadedGraphics.ExtractBitmap(i, GamePalettes.ByIndex(palettePicker.SelectedIndex), transparencyColor[transparencyColorPicker.SelectedIndex]);
                 previewPanel.Children.Add(spriteImage[i]);
             }
-            
+
+            var tg = (TileSet)loadedGraphics;
+            if (tg.TileSetGroupInformation != null)
+            {
+                tileColumnDef.Width = new GridLength(250);
+                var spriteTileImage = new Image[tg.TileSetGroupInformation.Length];
+                for (int i = 0; i < spriteTileImage.Length; i++)
+                {
+                    spriteTileImage[i] = new Image();
+
+                    spriteTileImage[i].Margin = new Thickness(marginsStroke.SelectedIndex * 4);
+
+                    spriteTileImage[i].Stretch = Stretch.None;
+                    spriteTileImage[i].Tag = i;
+                    spriteTileImage[i].MouseDown += (sender, args) =>
+                    {
+                        selectedTile.Source = ((Image)sender).Source;
+                        selectedSpriteIndex.Content = ((Image)sender).Tag;
+                        selectedSpriteSize.Content = selectedTile.Source.Width.ToString() + ", " + selectedTile.Source.Height.ToString();
+                        selectedSpriteUnknow.Content = tg.GetUnknowByIndex((int)((Image)sender).Tag);
+                        bottomBar.IsEnabled = true;
+                        replaceButton.IsEnabled = false;
+                    };
+                    spriteTileImage[i].SnapsToDevicePixels = true;
+                    spriteTileImage[i].LayoutTransform = new ScaleTransform(zoomCombo.SelectedIndex + 1, zoomCombo.SelectedIndex + 1);
+                    spriteTileImage[i].Source = tg.ExtractTileGroupBitmap(i, GamePalettes.ByIndex(palettePicker.SelectedIndex), transparencyColor[transparencyColorPicker.SelectedIndex]);
+                    previewTilePanel.Children.Add(spriteTileImage[i]);
+                }
+            }
+            else tileColumnDef.Width = new GridLength(0);
         }
 
         private void Open(object sender, RoutedEventArgs e)
@@ -60,12 +93,64 @@ namespace SPRTYL2PNG
             openFileDialog.Filter = "Sprite or Tileset Files|*.spr;*.tyl|Sprite Files|*.spr|Tileset Files|*.tyl";
             if (openFileDialog.ShowDialog() == true)
             {
+                var fileName = Path.GetFileName(openFileDialog.FileName.ToLower());
                 bottomBar.IsEnabled = false;
                 previewOptionsMenu.IsEnabled = true;
-                lastOpenedFile = openFileDialog.FileName;
+                exportButton.IsEnabled = true;
+                lastOpenedFile = openFileDialog.FileName.ToLower();
                 this.Title = openFileDialog.FileName + " - SPRTYL2PNG";
-                bool header = System.IO.Path.GetExtension(openFileDialog.FileName).ToUpper() == ".SPR";
-                loadedSprite = new Sprite(File.OpenRead(openFileDialog.FileName), header);
+
+                if(fileName.EndsWith(".spr"))
+                    loadedGraphics = new SpriteSheet(File.ReadAllBytes(openFileDialog.FileName));
+
+                else if (fileName.EndsWith(".tyl"))
+                {
+                    int size = 32;
+                    bool hasHeader = false , hasUnknowTail = false;
+
+                    switch (fileName)
+                    {
+                        case "medborders.tyl":
+                            size = 20; hasHeader = true;
+                            break;
+                        case "mediumroofs.tyl":
+                            size = 20;
+                            break;
+                        case "lowborders.tyl":
+                            hasHeader = true;
+                            break;
+                        case "locations.tyl":
+                            hasUnknowTail = true;
+                            break;
+                    }
+
+                    loadedGraphics = new TileSet(hasHeader, hasUnknowTail, size, File.ReadAllBytes(openFileDialog.FileName));
+
+                    if(fileName == "locations.tyl") // If true, load locations.dat
+                    {
+                        string path = openFileDialog.FileName.ToLower().Replace(".tyl", ".dat");
+                        using (BinaryReader br = new BinaryReader(File.OpenRead(path)))
+                        {
+                            br.BaseStream.Position = 60;
+                            int groupCount = (int)br.ReadInt16() * 4;
+                            TileSetGroupInformation[] tsgi = new TileSetGroupInformation[groupCount];
+           
+                            for (int i = 0; i < groupCount; i++)
+                            {
+                                if (i != 0 && (i & 3) == 0) //Mulltiple of 4, not zero
+                                    br.BaseStream.Position++;
+
+                                tsgi[i] = new TileSetGroupInformation(br);
+                            }
+
+                            ((TileSet)loadedGraphics).TileSetGroupInformation = tsgi;
+                        }
+
+                                             
+                    }
+
+                }
+
                 UpdatePreviewPanel();
             }
         }
@@ -76,9 +161,10 @@ namespace SPRTYL2PNG
             saveFileDialog.FileName = lastOpenedFile;
             saveFileDialog.Filter = "Sprite Files|*.spr|Tileset Files|*.tyl";
             saveFileDialog.InitialDirectory = System.IO.Path.GetDirectoryName(lastOpenedFile);
+            if (lastOpenedFile.EndsWith(".tyl")) saveFileDialog.FilterIndex = 1;
             if (saveFileDialog.ShowDialog() == true)
             {
-                File.WriteAllBytes(saveFileDialog.FileName, loadedSprite.RawData);
+                File.WriteAllBytes(saveFileDialog.FileName, loadedGraphics.RawData);
                 this.Title = this.Title.Remove(this.Title.Length - 1);
             }
         }
@@ -88,24 +174,26 @@ namespace SPRTYL2PNG
                 UpdatePreviewPanel();
         }
 
-        private void ExportPNGFrame(object sender, RoutedEventArgs e)
+        private void ExportPNGSprite(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.SaveFileDialog exportFileDialog = new Microsoft.Win32.SaveFileDialog();
             exportFileDialog.Filter = "PNG-8|*.png";
             if (exportFileDialog.ShowDialog() == true)
             {
                 //Create a 8bit PNG with transparency
-                var bitmap = loadedSprite.ToBitmap(int.Parse(selectedFrameIndex.Content.ToString()), GamePalettes.ByIndex(palettePicker.SelectedIndex), Color.FromArgb(0,0,0,0));
+
+                //var bitmap = loadedGraphics.ExtractBitmap(int.Parse(selectedSpriteIndex.Content.ToString()), GamePalettes.ByIndex(palettePicker.SelectedIndex), Color.FromArgb(0,0,0,0));
+                var bitmap = selectedTile.Source;
                 using (var fileStream = new FileStream(exportFileDialog.FileName, FileMode.Create))
                 {
                     BitmapEncoder encoder = new PngBitmapEncoder();
-                    encoder.Frames.Add(BitmapFrame.Create(bitmap));
+                    encoder.Frames.Add(BitmapFrame.Create(bitmap as BitmapSource));
                     encoder.Save(fileStream);
                 }
             }
         }
 
-        private void ImportPNGFrame(object sender, RoutedEventArgs e)
+        private void ImportPNGSprite(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog openFileDialog = new Microsoft.Win32.OpenFileDialog();
             openFileDialog.Filter = "PNG-8|*.png";
@@ -119,7 +207,7 @@ namespace SPRTYL2PNG
 
                 try
                 {
-                    loadedSprite.Replace(int.Parse(selectedFrameIndex.Content.ToString()), bs, GamePalettes.ByIndex(palettePicker.SelectedIndex));
+                    loadedGraphics.OverwriteBitmap(int.Parse(selectedSpriteIndex.Content.ToString()), bs, GamePalettes.ByIndex(palettePicker.SelectedIndex));
                 }
                 catch (NotImplementedException)
                 {
@@ -147,6 +235,30 @@ namespace SPRTYL2PNG
                 this.Title += "*";
             }
 
+        }
+
+        private void ExportAll(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.SaveFileDialog exportFileDialog = new Microsoft.Win32.SaveFileDialog();
+            exportFileDialog.Filter = "PNG-8|*.png";
+            exportFileDialog.Title = "All frames will be exported";
+            exportFileDialog.FileName = "X.png";
+            if (exportFileDialog.ShowDialog() == true)
+            {
+                for (int i = 0; i < loadedGraphics.Quantity; i++)
+                {
+                    string exportName = System.IO.Path.GetDirectoryName(exportFileDialog.FileName) + "\\" + i.ToString() + ".PNG";
+                    //Create a 8bit PNG with transparency
+                    var bitmap = loadedGraphics.ExtractBitmap(i, GamePalettes.ByIndex(palettePicker.SelectedIndex), Color.FromArgb(0, 0, 0, 0));
+                    using (var fileStream = new FileStream(exportName, FileMode.Create))
+                    {
+                        BitmapEncoder encoder = new PngBitmapEncoder();
+                        encoder.Frames.Add(BitmapFrame.Create(bitmap));
+                        encoder.Save(fileStream);
+                    }
+
+                }
+            }
         }
     }
 }

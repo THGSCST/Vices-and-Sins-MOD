@@ -9,10 +9,10 @@
     <DockPanel LastChildFill="True">
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar Band="1" >
-                <Button Content="Open" Click="Open" Name="openButton">
-                </Button>
-                <Button Content="Save As..." IsEnabled="False" Name="saveAsButton" Click="SaveAs">
-                </Button>
+                <Button Content="Open" Click="Open" Name="openButton" />
+                <Button Content="Save As..." IsEnabled="False" Name="saveAsButton" Click="SaveAs" />
+                <Separator/>
+                <Button Content="Export All as PNG..." IsEnabled="False" Click="ExportAll" Name="exportButton" />
             </ToolBar>
             <ToolBar Band="2" Name="previewOptionsMenu" IsEnabled="False">
                 <Label>Palette:</Label>
@@ -61,15 +61,30 @@
             </ToolBar>
         </ToolBarTray>
         <StatusBar Name="bottomBar"  DockPanel.Dock="Bottom" IsEnabled="False">
-            <Label>Selected Frame:</Label>
-            <Image Stretch="None"  Name="selectedFrame" />
-            <Label Name="selectedFrameSize" ContentStringFormat="Size: {0}px"/>
-            <Label Name="selectedFrameIndex" ContentStringFormat="Index: {0}" />
-            <Button Click="ExportPNGFrame">Export Frame as PNG</Button>
-            <Button Click="ImportPNGFrame">Replace Frame with PNG</Button>
+            <Label>Selected:</Label>
+            <Image Stretch="None"  Name="selectedTile" />
+            <StackPanel>
+                <Label Name="selectedSpriteSize" ContentStringFormat="Size: {0} px" Padding="5,5,5,0"/>
+                <Label Name="selectedSpriteIndex" ContentStringFormat="Index: {0}" Padding="5,0,5,0" />
+                <Label Name="selectedSpriteUnknow" ContentStringFormat="Unknow: {0:x8}" Padding="5,0,5,5" />
+            </StackPanel>
+            <Button Click="ExportPNGSprite">Export as PNG</Button>
+            <Button Name="replaceButton" Click="ImportPNGSprite">Replace with PNG</Button>
         </StatusBar>
-        <ScrollViewer VerticalScrollBarVisibility="Visible">
-            <WrapPanel Name="previewPanel"/>
-        </ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="0" Name="tileColumnDef"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Visible">
+                <WrapPanel Name="previewPanel"/>
+            </ScrollViewer>
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Visible">
+                <WrapPanel Name="previewTilePanel"/>
+            </ScrollViewer>
+            
+
+        </Grid>
+
     </DockPanel>
 </Window>
