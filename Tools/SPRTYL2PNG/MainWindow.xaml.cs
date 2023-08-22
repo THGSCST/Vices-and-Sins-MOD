@@ -56,8 +56,12 @@ namespace SPRTYL2PNG
                 previewPanel.Children.Add(spriteImage[i]);
             }
 
-            var tg = (TileSet)loadedGraphics;
-            if (tg.TileSetGroupInformation != null)
+            TileSet tg = null;
+
+            if(loadedGraphics is TileSet)
+               tg = (TileSet)loadedGraphics;
+
+            if (tg != null && tg.TileSetGroupInformation != null)
             {
                 tileColumnDef.Width = new GridLength(250);
                 var spriteTileImage = new Image[tg.TileSetGroupInformation.Length];
