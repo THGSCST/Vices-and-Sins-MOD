@@ -1,11 +1,7 @@
-#################################
-# SCENARIO.TXT			#
-#################################
+# SCENARIOS DESCRIPTION FILE - Vices and Sins Mod
 #
-# Number of Scenarios
-#
-10
-#
+# Number of Scenarios described in this file:
+12
 #
 #
 FAT CHANCE
@@ -57,4 +53,14 @@ WHERE ANGELS FEAR TO TREAD
 [WHERE ANGELS FEAR TO TREAD.
 ~Rod "The Bat" Smith and his mob have this city sewn up. No one would dare challenge him. No one would even last a week. Who would be that dumb?]
 Scene10.dat
+#
+WEALTH WITHOUT LIMITS
+[WEALTH WITHOUT LIMITS.
+~The heart of the city lies within your grasp. Grab as much as you can before your rivals come.]
+Scene11.dat
+#
+ENTRY
+[ENTRY.
+~The shadow of organized crime has had this city in its cold stranglehold for some time. Make sure things heat up again.]
+Scene12.dat
 #
