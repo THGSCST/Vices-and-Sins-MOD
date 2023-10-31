@@ -1,300 +1,41 @@
 # CHARACTER/HOOD GENERATION FILE - Vices and Sins Mod
 #
 # Number of Characters/Hood Types described in this file:
-18
+20	
+# Instructions:
+# Skill = CMin + VMax (Star Skill Value is the sum of Constant_Minimum plus Variable_Maximum)
+# This sum must be 256 or less for intelligence and 64 or less for other skills, otherwise the game will crash.
+# The value of VMax cannot be zero, as the game will generate a random number using VMax as the upper value. If you don't want random, use the value 1 for VMax.
 #
-# SKILL = BASE + VAR
-# Maximum Intelligence Skill: 256
-# Maximum Other Skills: 64
-# Var cannot be zero!
-# Other Skills Star Scale: ½[0..3], 1(4..11), 1½(12..19), 2(20..27), 2½(28..31), 3(32..35), 3½(36-39), 4(40..51), 4½(52..59), 5(60..63)
-# Other Skills (Constant Base 0..50, Random Variable) - The sum of Base plus Variable shall be 64 or less, or else game will skip this type.
-########################################
-# 1.Basic Hood
-# Unemployed and desperate
+# Intelligence Skill Star Scale: 1/2(0..25), 1(26..50), 1-1/2(51..75), 2(76..100), 2-1/2(101..125), 3(126..150), 3-1/2(151..175), 4(176..200), 4-1/2(201..225), 5(226..256)
+# Other Skills Star Scale: 1/2(0..4), 1(5..12), 1-1/2(13..20), 2(21..28), 2-1/2(29..32), 3(33..36), 3-1/2(37..40), 4(41..52), 4-1/2(53..56), 5(57..64)
 #
-15		# Weighting
-0	64	# Intelligence (1)
-0	16	# Arson (7)
-0	32	# Fists (5)
-0	32	# Driving (10)
-0	8	# Business (3)
-0	32	# Stealth (11)
-0	8	# Explosives (8)
-0	32	# Intimidation (9)
-0	32	# Firearms (4)
-0	32	# Knives (6)
-0	8	# Organisation (2)
-########################################
-# 2.Mediocre Hood
-# A good hood should be flexible
+# The skills in the table bellow are in the following order:
+# Weighting (Wgt), Intelligence (Int), Arson (Ars), Fists (Fst), Driving (Drv), Business (Biz), Stealth (Stl), Explosives (Xpl), Intimidation (Itm), Firearms (Fir), Knives (Knv) and Organisation (Org).
+# Weighting is the chance of recruitment. Maximum value is unknow.
 #
-10		# Weighting
-64	128	# Intelligence
-0	16	# Arson
-8	32	# Fists
-8	32	# Driving
-8	8	# Business
-8	32	# Stealth
-0	8	# Explosives
-8	32	# Intimidation
-8	32	# Firearms
-8	32	# Knives
-0	8	# Organisation
-########################################
-# 3.Salesman
-# Know how to sell goods.
+# The Starting Hood number 'n' are defined at game options, from 6 to 10 hoods.
 #
-5		# Weighting
-64	128	# Intelligence
-0	16	# Arson
-0	16	# Fists
-16	32	# Driving
-32	32	# Business
-0	16	# Stealth
-0	8	# Explosives
-0	16	# Intimidation
-0	16	# Firearms
-0	16	# Knives
-0	8	# Organisation
-########################################
-# 4.Manager
-# Educated in business, can run any enterprise
-#
-1		# Weighting
-192	64	# Intelligence
-0	16	# Arson
-0	16	# Fists
-16	32	# Driving
-40	24	# Business
-0	16	# Stealth
-0	8	# Explosives
-0	16	# Intimidation
-0	16	# Firearms
-0	16	# Knives
-32	32	# Organisation
-########################################
-# 5.Hunter
-# Good with Guns and Knives
-#
-1		# Weighting
-64	128	# Intelligence
-0	16	# Arson
-16	32	# Fists
-16	32	# Driving
-0	8	# Business
-16	32	# Stealth
-0	8	# Explosives
-16	32	# Intimidation
-32	32	# Firearms
-32	32	# Knives
-0	8	# Organisation
-########################################
-# 6.Idiot (Bad starting hood 1)
-# Good for nothing
-#
-1		# Weighting
-0	64	# Intelligence
-0	8	# Arson
-0	24	# Fists
-0	24	# Driving
-0	8	# Business
-0	24	# Stealth
-0	8	# Explosives
-0	24	# Intimidation
-0	24	# Firearms
-0	24	# Knives
-0	8	# Organisation
-########################################
-# 7.Brute (Bad starting hood 2)
-# Short temper
-#
-1		# Weighting
-0	64	# Intelligence
-0	8	# Arson
-16	24	# Fists
-0	24	# Driving
-0	8	# Business
-0	8	# Stealth
-0	8	# Explosives
-16	24	# Intimidation
-0	24	# Firearms
-0	24	# Knives
-0	8	# Organisation
-########################################
-# 8.Fearful (Bad starting hood 3)
-# Afraid of his own shadow
-#
-1		# Weighting
-32	64	# Intelligence
-0	8	# Arson
-0	8	# Fists
-16	24	# Driving
-0	8	# Business
-0	24	# Stealth
-0	8	# Explosives
-0	8	# Intimidation
-0	8	# Firearms
-0	8	# Knives
-0	8	# Organisation
-########################################
-# 9.Hitman
-# Specialist in the art of killing
-#
-1		# Weighting
-192	64	# Intelligence
-32	32	# Arson
-16	32	# Fists
-32	32	# Driving
-0	16	# Business
-48	16	# Stealth
-16	32	# Explosives
-16	32	# Intimidation
-48	16	# Firearms
-48	16	# Knives
-32	32	# Organisation
-########################################
-# 10.Sharpshooter (Good starting hood 1)
-# Bullseye
-#
-1		# Weighting
-64	128	# Intelligence
-0	16	# Arson
-8	32	# Fists
-8	32	# Driving
-0	8	# Business
-8	32	# Stealth
-0	8	# Explosives
-8	32	# Intimidation
-32	32	# Firearms
-8	32	# Knives
-0	8	# Organisation
-########################################
-# 11.Smart Aleck (Good starting hood 2)
-# Know-all
-#
-1		# Weighting
-128	64	# Intelligence
-8	32	# Arson
-8	32	# Fists
-8	32	# Driving
-8	16	# Business
-8	32	# Stealth
-8	16	# Explosives
-8	32	# Intimidation
-8	32	# Firearms
-8	32	# Knives
-8	16	# Organisation
-########################################
-# 12.Army Veteran
-# Tough guy with military training
-#
-1		# Weighting
-64	128	# Intelligence
-16	32	# Arson
-32	32	# Fists
-32	32	# Driving
-0	16	# Business
-0	16	# Stealth
-32	32	# Explosives
-32	32	# Intimidation
-32	32	# Firearms
-32	32	# Knives
-32	32	# Organisation
-########################################
-# 13.Artist
-# A trickster who only knows how to act
-#
-1		# Weighting
-128	128	# Intelligence
-0	16	# Arson
-0	16	# Fists
-32	32	# Driving
-0	16	# Business
-32	32	# Stealth
-0	8	# Explosives
-48	16	# Intimidation
-0	16	# Firearms
-0	16	# Knives
-16	32	# Organisation
-########################################
-# 14.Private Detective
-# Information seeker
-#
-1		# Weighting
-128	128	# Intelligence
-0	16	# Arson
-0	16	# Fists
-32	32	# Driving
-0	16	# Business
-40	24	# Stealth
-0	16	# Explosives
-16	32	# Intimidation
-16	32	# Firearms
-16	32	# Knives
-16	32	# Organisation
-########################################
-# 15.Anarchist
-# He likes chaos more than cash
-#
-1		# Weighting
-128	128	# Intelligence
-48	16	# Arson
-16	32	# Fists
-16	32	# Driving
-0	8	# Business
-16	32	# Stealth
-48	16	# Explosives
-16	32	# Intimidation
-32	32	# Firearms
-16	32	# Knives
-0	8	# Organisation
-########################################
-# 16.Ex-convic
-# Crime does pay
-#
-1		# Weighting
-64	128	# Intelligence
-0	16	# Arson
-0	32	# Fists
-0	32	# Driving
-0	8	# Business
-0	32	# Stealth
-0	16	# Explosives
-32	32	# Intimidation
-32	32	# Firearms
-32	32	# Knives
-0	8	# Organisation
-########################################
-# 17.Mistery Guy (Random starting Hood 1)
-# Who is?
-#
-1		# Weighting
-0	256	# Intelligence
-0	64	# Arson
-0	64	# Fists
-0	64	# Driving
-0	64	# Business
-0	64	# Stealth
-0	64	# Explosives
-0	64	# Intimidation
-0	64	# Firearms
-0	64	# Knives
-0	64	# Organisation
-########################################
-# 18.Academic Professor
-# He has a lot of theory, but no practice
-#
-1		# Weighting
-192 64	# Intelligence
-32	32	# Arson
-0	16	# Fists
-32	32	# Driving
-0	32	# Business
-0	16	# Stealth
-32	32	# Explosives
-0	16	# Intimidation
-0	16	# Firearms
-0	16	# Knives
-32	32	# Organisation
-########################################
+# Wgt	Int		Ars		Fst		Drv		Biz		Stl		Xpl		Itm		Fir		Knv		Org
+# Wgt	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax
+5	0	128	16	48	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	# 1. Firebug
+5	0	128	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	# 2. Brute
+5	0	128	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	0	32	# 3. Tailgater
+5	0	128	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	# 4. Salesman
+5	0	128	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	# 5. Wallflower
+5	0	128	0	32	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	# 6. Watchmaker [Starting Hood (n=10)]
+5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	# 7. Bully [Starting Hood]
+5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	0	32	16	48	0	32	0	32	# 8. Triggerman [Starting Hood (n>=8)]
+5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	16	48	0	32	# 9. Butcher
+5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	16	48	# 10. Planner [Starting Hood (n>=7)]
+2	64	128	32	32	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	# 11. Anarchist [Starting Hood]
+2	64	128	16	24	32	32	16	24	16	24	16	24	16	24	32	32	16	24	32	32	16	24	# 12. Ruffian
+2	64	128	16	24	16	24	32	32	32	32	16	24	16	24	16	24	16	24	16	24	32	32	# 13. Manager
+2	64	128	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	32	32	# 14. Coordinator 
+2	64	128	16	24	16	24	16	24	16	24	16	24	16	24	16	24	32	32	16	24	16	24	# 15. Deadeye
+1	128	128	48	16	24	16	24	16	24	16	24	16	48	16	24	16	24	16	24	16	24	16	# 16. Pyromaniac
+1	128	128	24	16	48	16	24	16	24	16	24	16	24	16	48	16	24	16	48	16	24	16	# 17. Badass [Starting Hood (n>=9)]
+1	128	128	24	16	24	16	24	16	48	16	24	16	24	16	24	16	24	16	24	16	48	16	# 18. Tycoon
+1	128	128	24	16	24	16	48	16	24	16	24	16	24	16	24	16	24	16	24	16	48	16	# 19. Taskmaster 
+1	128	128	24	16	24	16	24	16	24	16	48	16	24	16	24	16	48	16	24	16	24	16	# 20. Sharpshooter
+### End of File ###
