@@ -1,7 +1,7 @@
 # CHARACTER/HOOD GENERATION FILE - Vices and Sins Mod
 #
 # Number of Characters/Hood Types described in this file:
-20	
+20  
 # Instructions:
 # Skill = CMin + VMax (Star Skill Value is the sum of Constant_Minimum plus Variable_Maximum)
 # This sum must be 256 or less for intelligence and 64 or less for other skills, otherwise the game will crash.
@@ -18,24 +18,24 @@
 #
 # Wgt	Int		Ars		Fst		Drv		Biz		Stl		Xpl		Itm		Fir		Knv		Org
 # Wgt	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax	CMin	Vmax
-5	0	128	16	48	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	# 1. Firebug
-5	0	128	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	# 2. Brute
-5	0	128	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	0	32	# 3. Tailgater
-5	0	128	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	# 4. Salesman
-5	0	128	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	# 5. Wallflower
-5	0	128	0	32	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	# 6. Watchmaker [Starting Hood (n=10)]
-5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	# 7. Bully [Starting Hood]
-5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	0	32	16	48	0	32	0	32	# 8. Triggerman [Starting Hood (n>=8)]
-5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	16	48	0	32	# 9. Butcher
-5	0	128	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	0	32	16	48	# 10. Planner [Starting Hood (n>=7)]
-2	64	128	32	32	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	# 11. Anarchist [Starting Hood]
-2	64	128	16	24	32	32	16	24	16	24	16	24	16	24	32	32	16	24	32	32	16	24	# 12. Ruffian
-2	64	128	16	24	16	24	32	32	32	32	16	24	16	24	16	24	16	24	16	24	32	32	# 13. Manager
-2	64	128	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	32	32	# 14. Coordinator 
-2	64	128	16	24	16	24	16	24	16	24	16	24	16	24	16	24	32	32	16	24	16	24	# 15. Deadeye
+3	0	128	16	48	0	32	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	# 1. Firebug
+3	0	128	0	32	16	48	0	32	0	32	0	32	0	32	16	48	0	32	16	48	0	32	# 2. Brute
+3	0	128	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	0	32	16	48	# 3. Tailgater
+3	0	128	0	32	0	32	0	32	16	48	0	32	0	32	0	32	0	32	0	32	16	48	# 4. Salesman
+3	0	128	0	32	0	32	16	48	0	32	16	48	0	32	0	32	16	48	0	32	0	32	# 5. Wallflower
+2	64	192	32	32	16	24	16	24	16	24	16	24	16	24	16	24	16	24	16	24	16	24	# 6. Anarchist [Starting Hood (n=10)]
+2	64	192	16	24	32	32	16	24	16	24	16	24	16	24	16	24	16	24	16	24	16	24	# 7. Pugilist [Starting Hood]
+2	64	192	16	24	16	24	32	32	16	24	16	24	16	24	16	24	16	24	16	24	16	24	# 8. Pilot [Starting Hood (n>=8)]
+2	64	192	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	16	24	16	24	# 9. Manager
+2	64	192	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	16	24	# 10. Shadow [Starting Hood (n>=7)]
+2	64	192	16	24	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	16	24	# 11. Watchmaker[Starting Hood]
+2	64	192	16	24	16	24	16	24	16	24	16	24	16	24	32	32	16	24	16	24	16	24	# 12. Ruffian
+2	64	192	16	24	16	24	16	24	16	24	16	24	16	24	16	24	32	32	16	24	16	24	# 13. Deadeye
+2	64	192	16	24	16	24	16	24	16	24	16	24	16	24	16	24	16	24	32	32	16	24	# 14. Butcher
+2	64	192	16	24	16	24	16	24	16	24	16	24	16	24	16	24	16	24	16	24	32	32	# 15. Coordinator 
 1	128	128	48	16	24	16	24	16	24	16	24	16	48	16	24	16	24	16	24	16	24	16	# 16. Pyromaniac
 1	128	128	24	16	48	16	24	16	24	16	24	16	24	16	48	16	24	16	48	16	24	16	# 17. Badass [Starting Hood (n>=9)]
 1	128	128	24	16	24	16	24	16	48	16	24	16	24	16	24	16	24	16	24	16	48	16	# 18. Tycoon
-1	128	128	24	16	24	16	48	16	24	16	24	16	24	16	24	16	24	16	24	16	48	16	# 19. Taskmaster 
+1	128	128	24	16	24	16	48	16	24	16	24	16	24	16	24	16	24	16	24	16	48	16	# 19. Taskmaster
 1	128	128	24	16	24	16	24	16	24	16	48	16	24	16	24	16	48	16	24	16	24	16	# 20. Sharpshooter
 ### End of File ###
