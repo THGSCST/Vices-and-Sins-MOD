@@ -9,9 +9,12 @@ The first and only 1998 Gangsters Organized Crime MOD
 * Some buildings have a new name and function.
 * New hood generation template.
 * Ideal fronts for ilegal business has been rethought.
+* More realistic economy model data.
 
 ## Tools
+* __XLSX2Data__ - Batch create TXT files quickly and easily. Edit all your data directly in a familiar spreadsheet format. No more need to convert or open them in separate programs.
 * __SPRTYL2PNG__ - Show, replace or export any game gfx resource *.spr and *.tyl files. Support full transparency with PNG import/export.
+* __HELP2CSV__ - Converts help/tooltips files (*.idx *.dat) to CSV.
 * __XTX2TXT__ - Converter for XTX files.
 
 ## How to install?
@@ -19,8 +22,8 @@ The first and only 1998 Gangsters Organized Crime MOD
 2. Copy all the contents to install folder.
 3. If you have a non-GOG version, do not copy the `gangster.exe` or `gangster-cheats.exe` executable.
 
-## Cheats executable `gangster-cheats.exe`
-Created to facilitate debug or testing, it has the following cheats:
+## Cheats/debug executable `gangster-cheats.exe`
+This mode is specifically designed to facilitate debugging or testing.  Custom debug flags are enabled, and intro videos are disabled to streamline the process. It includes the following cheats to assist with testing:
 * `Shift + $` Your balance becomes one million dollars.
 * `Shift + #` All gangs get 1000 dollars, including you.
 
