@@ -80,6 +80,7 @@ namespace XLSX2Data
                                         goto End;
                                     sb.Append("\t");
                                 }
+                            sb.Length--; //To remove last tab
                             sb.Append("\r\n");
                         }
 
