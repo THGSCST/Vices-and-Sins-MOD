@@ -14,7 +14,8 @@ The first and only 1998 Gangsters Organized Crime MOD
 ## Tools
 * __XLSX2Data__ - Batch create TXT files quickly and easily. Edit all your data directly in a familiar spreadsheet format. No more need to convert or open them in separate programs.
 * __SPRTYL2PNG__ - Show, replace or export any game gfx resource *.spr and *.tyl files. Support full transparency with PNG import/export.
-* __HELP2CSV__ - Converts help/tooltips files (*.idx *.dat) to CSV.
+* __Names2CSV__ - Convert `Names.dat` files to CSV format and vice versa.
+* __Help2CSV__ - Converts help/tooltips files (*.idx *.dat) to CSV.
 * __XTX2TXT__ - Converter for XTX files.
 
 ## How to install?
