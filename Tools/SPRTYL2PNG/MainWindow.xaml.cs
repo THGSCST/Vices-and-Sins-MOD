@@ -246,7 +246,8 @@ namespace SPRTYL2PNG
             Microsoft.Win32.SaveFileDialog exportFileDialog = new Microsoft.Win32.SaveFileDialog();
             exportFileDialog.Filter = "PNG-8|*.png";
             exportFileDialog.Title = "All frames will be exported";
-            exportFileDialog.FileName = "X.png";
+            exportFileDialog.FileName = System.IO.Path.GetFileNameWithoutExtension(lastOpenedFile) + ".png";
+
             if (exportFileDialog.ShowDialog() == true)
             {
                 for (int i = 0; i < loadedGraphics.Quantity; i++)
